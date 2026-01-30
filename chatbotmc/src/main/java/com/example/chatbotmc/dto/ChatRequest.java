@@ -1,5 +1,3 @@
 package com.example.chatbotmc.dto;
 
-public class ChatRequest {
-    
-}
+public record ChatRequest(String prompt) {}
