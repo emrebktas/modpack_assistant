@@ -415,11 +415,12 @@ function App() {
               sx={{
                 color: '#ececec',
                 fontWeight: 600,
+                fontSize: '16px',
               }}
             >
               ModpackGPT
             </Typography>
-            <Box sx={{ width: 40 }} /> {/* Spacer for centering */}
+            <Box sx={{ width: 48 }} /> {/* Spacer for centering */}
           </Box>
 
           {/* Messages Area */}
@@ -671,7 +672,7 @@ function App() {
                   sx={{
                     '& .MuiInputBase-input': {
                       color: '#ececec',
-                      fontSize: '1rem',
+                      fontSize: { xs: '16px', md: '1rem' },
                       lineHeight: 1.5,
                       py: 1,
                       '&::placeholder': {
