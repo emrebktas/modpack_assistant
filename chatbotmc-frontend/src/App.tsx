@@ -397,12 +397,18 @@ function App() {
               onClick={() => setMobileOpen(true)}
               sx={{
                 color: '#ececec',
+                minWidth: '48px',
+                minHeight: '48px',
+                padding: '12px',
                 '&:hover': {
                   bgcolor: '#2f2f2f',
                 },
+                '&:active': {
+                  bgcolor: '#3f3f3f',
+                },
               }}
             >
-              <MenuIcon />
+              <MenuIcon sx={{ fontSize: 28 }} />
             </IconButton>
             <Typography
               variant="subtitle1"
