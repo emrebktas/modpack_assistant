@@ -13,6 +13,7 @@ import {
 } from '@mui/material'
 import SendIcon from '@mui/icons-material/Send'
 import MenuIcon from '@mui/icons-material/Menu'
+import LoginIcon from '@mui/icons-material/Login'
 import LoginDialog from './components/LoginDialog'
 import RegisterDialog from './components/RegisterDialog'
 import ConversationSidebar from './components/ConversationSidebar'
@@ -299,7 +300,11 @@ function App() {
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault()
-      sendMessage()
+      if (!authenticated) {
+        setLoginOpen(true)
+      } else {
+        sendMessage()
+      }
     }
   }
 
@@ -682,16 +687,18 @@ function App() {
                     },
                   }}
                 />
-                <Tooltip title={!authenticated ? "Login required" : remainingQueries === 0 ? "No queries remaining" : "Send message"}>
+                <Tooltip title={!authenticated ? "Click to login" : remainingQueries === 0 ? "No queries remaining" : "Send message"}>
                   <span>
                     <IconButton
-                      onClick={sendMessage}
-                      disabled={!input.trim() || loading || !authenticated || remainingQueries === 0}
+                      onClick={!authenticated ? () => setLoginOpen(true) : sendMessage}
+                      disabled={authenticated && (!input.trim() || loading || remainingQueries === 0)}
                       sx={{
-                        bgcolor: input.trim() && !loading && authenticated && remainingQueries !== 0 
+                        bgcolor: !authenticated
+                          ? '#10a37f'
+                          : input.trim() && !loading && remainingQueries !== 0 
                           ? '#10a37f' 
                           : 'transparent',
-                        color: input.trim() && !loading && authenticated && remainingQueries !== 0 
+                        color: !authenticated || (input.trim() && !loading && remainingQueries !== 0)
                           ? 'white' 
                           : '#565656',
                         width: 36,
@@ -699,7 +706,9 @@ function App() {
                         mb: 0.5,
                         transition: 'all 0.2s',
                         '&:hover': {
-                          bgcolor: input.trim() && !loading && authenticated && remainingQueries !== 0 
+                          bgcolor: !authenticated
+                            ? '#0d8a6c'
+                            : input.trim() && !loading && remainingQueries !== 0 
                             ? '#0d8a6c' 
                             : 'rgba(255,255,255,0.05)',
                         },
@@ -708,7 +717,11 @@ function App() {
                         },
                       }}
                     >
-                      <SendIcon sx={{ fontSize: 20 }} />
+                      {!authenticated ? (
+                        <LoginIcon sx={{ fontSize: 20 }} />
+                      ) : (
+                        <SendIcon sx={{ fontSize: 20 }} />
+                      )}
                     </IconButton>
                   </span>
                 </Tooltip>
