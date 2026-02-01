@@ -1,4 +1,10 @@
 HELP.md
+
+# Environment variables (SECURITY: Never commit!)
+.env
+.env.local
+.env.production
+*.env
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/

@@ -1,3 +1,6 @@
+// API base URL from environment variable with fallback for development
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
+
 interface RegisterRequest {
   username: string;
   email: string;
@@ -17,7 +20,7 @@ interface LoginRequest {
 }
 
 export const login = async (data: LoginRequest): Promise<AuthResponse> => {
-  const response = await fetch('http://localhost:8080/api/auth/login', {
+  const response = await fetch(`${API_BASE_URL}/api/auth/login`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -42,7 +45,7 @@ export const login = async (data: LoginRequest): Promise<AuthResponse> => {
 };
 
 export const register = async (data: RegisterRequest): Promise<AuthResponse> => {
-  const response = await fetch('http://localhost:8080/api/auth/register', {
+  const response = await fetch(`${API_BASE_URL}/api/auth/register`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

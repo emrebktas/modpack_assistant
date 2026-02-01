@@ -3,12 +3,16 @@ package com.example.chatbotmc.controller;
 import com.example.chatbotmc.dto.*;
 import com.example.chatbotmc.service.AuthService;
 import jakarta.validation.Valid;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
+    
+    private static final Logger logger = LoggerFactory.getLogger(AuthController.class);
     
     private final AuthService authService;
     
@@ -26,8 +30,25 @@ public class AuthController {
         return ResponseEntity.ok(authService.login(request));
     }
     
+    /**
+     * User approval endpoint for admin email workflow.
+     * Security is provided by:
+     * 1. UUID tokens that are virtually impossible to guess
+     * 2. Token expiration (48 hours by default)
+     * 3. Single-use tokens (cleared after approval/rejection)
+     * 4. Request logging for audit trail
+     */
     @GetMapping("/approve-user")
-    public ResponseEntity<String> approveUser(@RequestParam String token, @RequestParam String action) {
+    public ResponseEntity<String> approveUser(
+            @RequestParam String token, 
+            @RequestParam String action,
+            @RequestHeader(value = "X-Forwarded-For", required = false) String forwardedFor,
+            @RequestHeader(value = "User-Agent", required = false) String userAgent) {
+        
+        // Log approval attempt for security audit
+        logger.info("User approval attempt - Action: {}, IP: {}, User-Agent: {}", 
+            action, forwardedFor != null ? forwardedFor : "direct", userAgent);
+        
         String message = authService.approveUser(token, action);
         
         // Return HTML page with result

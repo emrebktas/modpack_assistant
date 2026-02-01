@@ -41,6 +41,12 @@ public class User {
 
     @Column(name = "approval_requested_at")
     private LocalDateTime approvalRequestedAt;
+    
+    @Column(name = "approval_token_expires_at")
+    private LocalDateTime approvalTokenExpiresAt;
+
+    @Column(name = "query_count")
+    private int queryCount = 0;
 
     @PrePersist
     protected void onCreate() {

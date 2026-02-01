@@ -6,6 +6,7 @@ import com.example.chatbotmc.dto.RegisterRequest;
 import com.example.chatbotmc.entity.User;
 import com.example.chatbotmc.entity.Role;
 import com.example.chatbotmc.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +20,9 @@ public class AuthService {
     private final PasswordEncoder passwordEncoder;
     private final JwtService jwtService;
     private final EmailService emailService;
+    
+    @Value("${admin.approval-token-expiration-hours:48}")
+    private int tokenExpirationHours;
     
     public AuthService(UserRepository userRepository, 
                       PasswordEncoder passwordEncoder,
@@ -39,8 +43,10 @@ public class AuthService {
             throw new RuntimeException("Email is already registered");
         }
         
-        // Generate approval token for admin
+        // Generate approval token for admin with expiration
         String approvalToken = UUID.randomUUID().toString();
+        LocalDateTime now = LocalDateTime.now();
+        LocalDateTime expiresAt = now.plusHours(tokenExpirationHours);
         
         User user = new User();
         user.setUsername(request.username());
@@ -49,7 +55,8 @@ public class AuthService {
         user.setRole(Role.USER);
         user.setApprovedByAdmin(false);
         user.setApprovalToken(approvalToken);
-        user.setApprovalRequestedAt(LocalDateTime.now());
+        user.setApprovalRequestedAt(now);
+        user.setApprovalTokenExpiresAt(expiresAt);
         
         userRepository.save(user);
         
@@ -66,11 +73,12 @@ public class AuthService {
     }
     
     public AuthResponse login(LoginRequest request) {
+        // Use generic error message to prevent username enumeration
         User user = userRepository.findByUsername(request.username())
-            .orElseThrow(() -> new RuntimeException("User not found"));
+            .orElseThrow(() -> new RuntimeException("Invalid credentials"));
         
         if (!passwordEncoder.matches(request.password(), user.getPassword())) {
-            throw new RuntimeException("Incorrect password");
+            throw new RuntimeException("Invalid credentials");
         }
         
         // Check if user is approved by admin
@@ -91,6 +99,12 @@ public class AuthService {
     public String approveUser(String token, String action) {
         User user = userRepository.findByApprovalToken(token)
             .orElseThrow(() -> new RuntimeException("Invalid approval token"));
+        
+        // Check if token has expired
+        if (user.getApprovalTokenExpiresAt() != null && 
+            LocalDateTime.now().isAfter(user.getApprovalTokenExpiresAt())) {
+            throw new RuntimeException("Approval token has expired. Please request a new registration.");
+        }
         
         if ("approve".equals(action)) {
             user.setApprovedByAdmin(true);

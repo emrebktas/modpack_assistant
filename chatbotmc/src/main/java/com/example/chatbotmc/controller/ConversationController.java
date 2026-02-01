@@ -4,8 +4,10 @@ import com.example.chatbotmc.dto.ChatMessageDTO;
 import com.example.chatbotmc.dto.ConversationDTO;
 import com.example.chatbotmc.service.ConversationService;
 import com.example.chatbotmc.service.JwtService;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -70,8 +72,14 @@ public class ConversationController {
         return ResponseEntity.ok().build();
     }
     
+    /**
+     * Safely extracts userId from Authorization header with proper validation
+     */
     private Long extractUserId(String authHeader) {
-        String token = authHeader.substring(7); // Remove "Bearer " prefix
+        if (authHeader == null || !authHeader.startsWith("Bearer ") || authHeader.length() <= 7) {
+            throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Invalid authorization header");
+        }
+        String token = authHeader.substring(7);
         return jwtService.extractUserId(token);
     }
 }

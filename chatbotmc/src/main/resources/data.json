@@ -1,0 +1,1094 @@
+[
+    {
+        "id": "dragon-mounts-legacy-rag-001",
+        "text": "The dragon egg has finally hatched, and the creature within is yours to raise. In Velox Resurrected, players explore the bond between dragons and the natural world, using their abilities to survive, travel, and dominate the skies. Dragons once ruled the world—now they serve you, and every choice in how you raise them is yours.\n\nVelox Resurrected allows players to obtain and raise many dragon types, including Aether, Cherry, End, Fire, Forest, Ghost, Ice, Nether, Pumpkin, Red Panda (Velox only), Sculk, Soul Sand, and Water dragons. A dragon egg can be obtained by slaying the Ender Dragon, with a smaller chance of finding one while exploring dungeons.\n\nOnce an egg is acquired and placed safely, players can either hatch it immediately or place it in a special habitat to let it adapt to its surroundings, which changes the dragon’s breed. After the egg is properly placed, right-clicking begins the hatching process, which can take up to an hour. Players should remain nearby until the dragon hatches.\n\nTo tame a dragon, it must be fed its preferred food. By default, raw fish is used, but some dragons require specific items, such as cherry leaves for the Cherry Dragon or bamboo for the Red Panda Dragon. Each dragon has unique textures, stats, and abilities, ranging from healing their owner to scaring mobs or generating plants as they move.\n\nDragons can be ridden by equipping them with a saddle and right-clicking. Use the spacebar to ascend and the Z key to descend while flying. If a dragon is injured, its health can be restored by feeding it meat, or by using healing spells if the player has magical abilities.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Dragon Mount Legacy",
+          "mod_version": "unknown",
+          "category": "Dragon Mounts",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "goblin-traders-rag-001",
+        "text": "Goblin Traders are passive creatures added by the Goblin Traders mod. They commonly spawn in caves or mining tunnels after a player spends a significant amount of time underground. Their presence can be detected by a distinctive sound described in-game as a \"lazy grunt.\" There is no strict limit to how many Goblin Traders can appear in a single area; instead, the most important factor influencing their spawn is how long the player remains underground.\n\nGoblin Traders are completely non-hostile and will not attack the player, even if provoked. Their primary value lies in their trading utility. They offer exchanges that help reduce repetitive mining and processing tasks, such as trading emeralds for cobblestone, flint for gravel, and ore ingots for their corresponding raw ores. These trades are especially useful because Goblin Traders always return more resources than they receive.\n\nFor example, when a player trades 2 raw iron, they receive 3 iron ingots in return. This mechanic effectively removes the need for smelting while also providing a resource bonus. In addition to material trades, Goblin Traders can help maintain anvils and preserve enchantments on tools, offering further quality-of-life improvements for players who spend a lot of time mining.\n\nOne important limitation to note is that Goblin Traders take a long time to reset their trades. Players should plan their interactions accordingly, as repeated or rapid trading with the same goblin is not immediately possible.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Goblin Traders",
+          "mod_version": "unknown",
+          "category": "Goblin Traders",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "the-conjurer-rag-a7c4d91e",
+        "text": "The Conjurer is the second boss encountered in Normal mode. This boss can be found inside a structure known as the Theater, which spawns in several forest biomes including Dark Forest, Blackwood Forest, Sakura Grove, Blooming Valley, and Lavender Forest. The Conjurer waits for the player on the stage of the Theater, while pillagers populate both the interior and the surrounding area, making the encounter more dangerous before the boss fight even begins.\n\nThe Conjurer uses two primary offensive attacks. The first attack involves shooting round projectiles that bounce off walls, making them difficult to avoid in enclosed spaces. The second attack consists of throwing magical cards directly at the player, dealing damage on impact.\n\nIn addition to these attacks, The Conjurer has several special abilities that increase the complexity of the fight. He can summon angry rabbits from his hat, which aggressively attack the player and create additional pressure during combat. When The Conjurer takes damage, he is able to turn invisible, temporarily hiding his position. He can also teleport both himself and the player around the Theater room, disorienting the player and making positioning more challenging.\n\nDespite his invisibility ability, The Conjurer can still be tracked by observing particle effects that reveal his location. Players preparing for this encounter can obtain a map to the Theater by trading with a Cartographer villager, allowing them to locate the structure more easily before engaging the boss.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "The Conjurer",
+          "mod_version": "unknown",
+          "category": "Boss",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "incubation-rag-b1f6e3a9",
+        "text": "Incubation is a small mod developed by Team Abnormals that focuses on expanding egg-related mechanics in Minecraft. First released on February 7, 2020, the mod introduces a variety of features centered around eggs, farming, and light automation, including new consumables, nests, and storage blocks designed to improve how eggs are collected and used.\n\nThe mod adds new food items such as the Fried Egg and Scrambled Egg. A Fried Egg is created by cooking a regular egg and restores 2 hunger points. Scrambled Eggs are crafted using two eggs of any type, milk, and a bowl, restoring 3 hunger points, making them a slightly more efficient food option.\n\nIncubation also introduces several new blocks and items. Twig Nests naturally generate in the world, while Hay Nests can be crafted using five wheat. These nests are designed to interact with chickens, which prefer to lay their eggs on nearby nests rather than randomly on the ground. Each nest can store up to six eggs and can be emptied automatically using a hopper, allowing for simple egg farming setups.\n\nFor storage purposes, the mod adds Chicken Egg Crates and Turtle Egg Crates. These blocks are crafted from nine chicken eggs or nine turtle eggs respectively and function as compact storage blocks for large quantities of eggs. Overall, Incubation enhances farming gameplay by adding immersive, practical systems for egg production, storage, and consumption.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Incubation",
+          "mod_version": "1.19.2",
+          "category": "Farming",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "treasure-reforging-addon-rag-e2a9f41c",
+        "text": "The Treasure Reforging addon introduces a recycling system that allows players to repurpose excess dungeon loot into new and useful equipment components. Instead of discarding unwanted or duplicate gear, players can break down certain high-tier equipment into specialized materials and reuse them through reforging mechanics. This system relies on new smithing templates, which are combined with materials obtained by smelting specific types of dungeon equipment.\n\nDifferent equipment sets yield different materials when recycled. Neptune equipment can be smelted down into Neptune Mesh, which serves as a core crafting component for reforged Neptune gear. Valkyrie equipment can be broken down into Valkyrum Ingots, while Phoenix equipment yields Pyral Ingots when processed. These materials form the backbone of the reforging system and allow players to convert old loot into meaningful upgrades or alternative equipment choices.\n\nIn addition to standard equipment recycling, the addon provides further utility through Sun Altar breakdowns. Sun Altars can be dismantled into Pyral Shards, which can then be recrafted into Pyral Ingots using Obsidian. Pyral Shards also have a secondary use, as they can be consumed to reignite Obsidian Armor, adding longevity and maintenance options for powerful gear.\n\nFor storage and crafting efficiency, Valkyrum Ingots and Pyral Ingots can be compacted into block forms. Overall, the Treasure Reforging addon enhances dungeon progression by rewarding exploration with flexible resource management, encouraging players to recycle loot and customize their equipment rather than relying solely on random drops.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Treasure Reforging",
+          "mod_version": "unknown",
+          "category": "Equipment",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "protect-your-moa-rag-6c3f8a21",
+        "text": "The Protect Your Moa addon expands how Moas can be used during exploration by introducing new equipment and utility options. The addon focuses on improving Moa survivability and functionality, making them more reliable companions for long journeys and dangerous environments.\n\nOne of the core features is Moa Armor, which can be crafted and equipped to provide Moas with increased protection. Different armor types offer unique benefits depending on the Moa variant. For example, Gravitite Moa Armor grants additional jumping abilities, enhancing mobility and traversal in vertical or difficult terrain.\n\nIn addition to armor, players can equip Moas with chests. This allows Moas to function as mobile storage units, enabling players to carry extra items while exploring without relying solely on their own inventory. This feature is especially useful for extended expeditions where inventory management becomes critical.\n\nOverall, the Protect Your Moa addon enhances exploration gameplay by turning Moas into more durable, versatile, and practical mounts through added defense, special abilities, and portable storage options.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Protect Your Moa",
+          "mod_version": "unknown",
+          "category": "Exploration",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "farmers-structures-rag-3f9c6d12",
+        "text": "Farmers Structures is an add-on for Farmer’s Delight that introduces a wide variety of naturally generated structures designed to showcase and teach the mechanics of the Farmer’s Delight mod. These structures are not only visually appealing but also practical, helping players learn cooking, food preparation, and survival systems in an immersive way.\n\nThe mod adds over 50 unique, randomly generated structures using a jigsaw-based generation system. Many of these structures function as small homes that are ideal for starter bases or temporary vacation spots. They typically include essentials such as a bed, crafting table, and food items that often require cooking, subtly encouraging players to interact with Farmer’s Delight mechanics.\n\nAll structures follow a simple, vanilla-friendly aesthetic that blends seamlessly into the Minecraft world. Large, intrusive buildings and unrealistic materials are intentionally avoided. Structures are carefully integrated into terrain, minimizing unnatural platforms or sharp edges within the limits of vanilla world generation. Resource placement is balanced to ensure that progression and gameplay difficulty remain intact.\n\nFarmers Structures strictly respects vanilla progression rules. Nether blocks do not appear in the overworld, and no materials are used in ways that would break immersion or game balance. The builds are thoughtfully designed to demonstrate Farmer’s Delight recipes, tools, and cooking systems while remaining compatible with popular Farmer’s Delight addons.\n\nAny structure added by the mod can be located using the command /locate structure farmers_structures:, allowing players to easily explore and study the builds if desired.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Farmers Structures",
+          "mod_version": "unknown",
+          "category": "World Generation",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "immersive-lanterns-rag-5a9e2c74",
+        "text": "Immersive Lanterns is a small utility-focused mod that allows players to wear lanterns using the Accessories mod, providing hands-free lighting with immersive visuals and dynamic lighting support. The mod is designed to solve the common problem of choosing between holding a torch or a shield, especially during exploration or combat-heavy gameplay.\n\nPlayers can equip a lantern by crafting one and then crouch-right-clicking while holding it. This action places the lantern into an Accessories slot, where it hangs visibly from the player’s belt. Once equipped, the lantern emits light around the player, allowing continuous illumination without occupying the main hand or offhand.\n\nA key feature of Immersive Lanterns is its custom swinging physics. As the player moves, the lantern behaves like a pendulum, swinging naturally in third-person view. This adds a strong sense of realism and immersion compared to static light sources or simple inventory-based solutions.\n\nThe mod also supports dynamic lighting, ensuring that the lantern actively lights the surrounding area as the player moves. While other mods offer similar wearable lighting features, Immersive Lanterns stands out by providing full compatibility with Iris shaderpacks that include their own dynamic lighting systems. This allows lanterns to visually adapt to shader effects.\n\nFor example, equipping a Soul Lantern while using the Complementary shaderpack produces blue-colored lighting instead of standard light. This deep shader integration makes Immersive Lanterns a strong choice for players who prioritize immersion, visuals, and seamless exploration without sacrificing combat readiness.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Immersive Lanterns",
+          "mod_version": "unknown",
+          "category": "Utility",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "ferrous-wroughtnaut-rag-8c5e1d4b",
+        "text": "Ferrous Wroughtnauts are hostile boss mobs encountered within structures known as Wrought Chambers. Each Wrought Chamber generates with exactly one Ferrous Wroughtnaut during world generation, and these structures notably contain no chests or loot containers. Wroughtnauts are heavily armored knights wielding massive axes and are among the most mechanically demanding boss encounters due to their near-total immunity to damage.\n\nWhen idle, a Ferrous Wroughtnaut stands motionless with its arms resting on its axe. Once a player approaches or attacks it, the boss becomes active and begins combat. During fights, Wroughtnauts emit eerie, ghostly groans. Outside of combat, they rapidly regenerate health. They are immune to all sources of damage except during specific attack animations, namely the axe slam and vertical swing attacks, where a vulnerable wound on their back can be struck. Defeating one grants the \"Just A Flesh Wound\" advancement.\n\nIn combat, the Wroughtnaut slowly marches toward its target and periodically performs powerful attacks. Its Axe Swing attack deals massive damage and instantly breaks shields, gaining additional combo swings as its health drops below 50% and 25%. The Axe Slam is its strongest attack, embedding the axe into the ground and briefly exposing its weak point. The Stomp attack launches nearby blocks, damages and knocks back entities, and can be avoided by precise jumping.\n\nUpon death, Ferrous Wroughtnauts drop guaranteed boss loot. They always drop the Wrought Helm and the Axe of a Thousand Metals, making them a high-risk but high-reward encounter for well-prepared players.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Mowzies Cataclysm",
+          "mod_version": "unknown",
+          "category": "Boss",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "umvuthi-sunbird-rag-4f2c9e71",
+        "text": "Umvuthi, the Sunbird is a large neutral boss mob found seated on a throne within the Umvuthana Grove. He is a powerful heliomancer and the creator of the Abavuthana. Umvuthi never leaves his throne and will attack nearby hostile mobs such as Zombies, Skeletons, Drowned, and Husks, as well as any players who are not wearing an Umvuthana Mask or who misbehave within the grove. While not in combat, he passively regenerates health. Defeating Umvuthi grants the player the Praise The Sun advancement, and all nearby Abavuthana die upon his defeat.\n\nDuring combat, Umvuthi alternates between several solar-based attacks. Sunstrike calls down fiery strikes at a target’s location, dealing damage and igniting entities, with increasing frequency as his health decreases. Solar Flare damages and knocks back nearby targets when they approach too closely. Once below 60 health, Umvuthi gains access to Solar Beam, firing a sustained beam that repeatedly damages entities in its path. His most devastating ability is Supernova, which pulls entities inward before detonating in a large explosion that can set targets on fire.\n\nUmvuthi can also summon Abavuthana if too few are nearby, and when his health drops to 75 or lower, he summons Umvuthana Cranes to heal him, granting an unbreakable shield until they are defeated. Outside of combat, Umvuthi offers trading to players wearing an Umvuthana Mask. In exchange for seven Blocks of Gold, he grants the Sun’s Blessing for 60 minutes, which can later be renewed for free as long as the player keeps the mask equipped.\n\nWhen slain, Umvuthi always drops a Sol Visage and one to two Feathers. The Sol Visage can be worn and used to summon Umvuthana minions by right-clicking while holding another Umvuthana Mask.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Mowzies Cataclysm",
+          "mod_version": "unknown",
+          "category": "Boss",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "tongbi-sculptor-rag-2e7f9b6c",
+        "text": "Tongbi, the Sculptor is a simian-themed neutral boss mob found within Monastery structures. One Tongbi spawns at the center of each Monastery during world generation, making him a guaranteed encounter for players who explore these locations. Unlike many boss mobs, Tongbi does not immediately engage in combat and instead offers an alternative, skill-based interaction.\n\nTongbi is neutral by default and will not attack the player unless provoked. His primary purpose is to test the player’s agility and movement skills rather than raw combat strength. Through trading, Tongbi can offer a special item known as the Bluff Rod, which initiates a parkour-style challenge. This test emphasizes precision jumping, timing, and traversal, rewarding players who successfully complete it.\n\nPlayers who choose to attack and defeat Tongbi instead of completing his challenge will still receive valuable rewards, though they are less predictable. Upon death, Tongbi drops a random piece of the Geomancy armor set, making him a potential source of powerful earth-themed equipment for players focused on combat.\n\nHowever, players who complete Tongbi’s parkour challenge are guaranteed a specific and highly desirable reward. Successfully passing the test ensures that Tongbi drops the Earthrend Gauntlet, a powerful Geomancy item that cannot be guaranteed through combat alone. This design encourages players to engage with Tongbi’s intended mechanics rather than relying solely on brute force.\n\nOverall, Tongbi, the Sculptor stands out as a boss encounter that rewards skillful movement and problem-solving, offering players a unique alternative to traditional combat-focused boss fights.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Mowzies Cataclysm",
+          "mod_version": "unknown",
+          "category": "Boss",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "naga-rag-9a6d4c2f",
+        "text": "Nagas are large, flying hostile mobs that inhabit coastal cliffs, most commonly spawning in Stony Shores biomes. They are venomous, winged serpents capable of overwhelming players with both ranged and melee attacks. Due to terrain changes introduced in Minecraft 1.18, Stony Shores biomes appear more frequently, resulting in unusually large swarms of Nagas spawning. This behavior is a known issue, and a fix is reportedly in development.\n\nNagas spawn in packs and immediately become aggressive when a player approaches. Their primary ranged attack involves spitting acid balls that deal heavy damage, typically around five to six hearts, while also inflicting poison. In close combat, Nagas can swoop down toward players and perform a spinning attack that deals approximately four to five hearts of damage.\n\nIn addition to their strong attacks, Nagas are highly mobile and capable of dodging incoming arrows, making ranged combat more challenging. However, if a Naga is successfully struck by an arrow, it will briefly lose control, flailing and crashing to the ground. This moment of vulnerability allows players to close the distance and deal extra damage before the Naga recovers.\n\nUpon death, Nagas drop Naga Fangs. The quantity dropped increases with the Looting enchantment, making them a reliable source of this item for players who repeatedly hunt them. Overall, Nagas are dangerous aerial predators that require careful positioning and timing to defeat effectively.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Mowzies Cataclysm",
+          "mod_version": "unknown",
+          "category": "Hostile Mob",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bluff-mob-rag-1c7e5a92",
+        "text": "Bluffs are hostile mobs encountered within Monastery structures. They are aggressive stone-based enemies that pose a threat through terrain-manipulating attacks rather than direct melee combat. Bluffs are notable for being the only source of Bluff Rods, which they drop upon death, making them a key target for players seeking this unique item.\n\nBluffs spawn naturally throughout monasteries, particularly in halls and corridors, and may also appear from mob spawners located within these structures. This makes monasteries a consistent but dangerous location for farming Bluff Rods, as multiple Bluffs can appear in confined spaces.\n\nIn terms of behavior, Bluffs are immediately hostile toward players and will attack on sight. They are also aggressive toward Iron Golems, Snow Golems, and Wandering Traders. If attacked by other mobs, Bluffs will retaliate against most attackers, with the exception of creepers and ghasts, which they ignore.\n\nTheir primary method of attack involves raising an earth block directly at the player’s location. This attack can disrupt movement, deal damage, and create sudden obstacles, making positioning and awareness especially important during combat. Because of their environmental manipulation and confined spawning areas, Bluffs can be deceptively dangerous when encountered in groups.\n\nOverall, Bluffs serve as both a combat challenge and a progression gate within monasteries, encouraging players to engage carefully in order to obtain Bluff Rods while navigating tight interiors and constant ambush potential.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Mowzies Cataclysm",
+          "mod_version": "unknown",
+          "category": "Hostile Mob",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "foliaath-rag-7b3d9a4e",
+        "text": "Foliaaths are common hostile mobs found in jungle biomes. They are carnivorous plant creatures that prey on anything that comes too close, blending naturally into dense jungle foliage to ambush unsuspecting targets.\n\nFoliaaths spawn naturally in jungle biomes and camouflage themselves as ordinary ferns. While inactive, only their fern-like base is visible, and they remain completely invulnerable, making them difficult to distinguish from normal vegetation. This camouflage allows them to surprise players and mobs that wander too close.\n\nWhen a valid target approaches, a Foliaath reveals its head and becomes aggressive. It attacks by biting nearby creatures and players, dealing damage at close range. Once all nearby targets are eliminated or move out of range, the Foliaath returns to its inactive state, once again appearing as a harmless fern and regaining invulnerability.\n\nFoliaaths gain additional strength from successful kills. Each time a Foliaath kills any entity, it is granted Regeneration II for 15 seconds, allowing it to quickly recover health and making prolonged encounters more dangerous if other mobs are nearby.\n\nWhen defeated by the player, Foliaaths have a chance to drop a Foliaath Seed. These drops are occasional rather than guaranteed, encouraging repeated encounters for players seeking this item. Overall, Foliaaths are deceptive ambush predators that reward cautious exploration and careful observation in jungle environments.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Mowzies Cataclysm",
+          "mod_version": "unknown",
+          "category": "Hostile Mob",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "frostmaw-rag-0d8c4b2a",
+        "text": "Frostmaw is a large, rare hostile boss mob and the largest creature in its mod, found in cold and icy biomes such as Snowy Plains, Ice Spikes, and other snowy regions. Frostmaws spawn above grass or ice and begin encounters in a dormant state, sleeping while guarding an Ice Crystal held in their hand. Players can steal this Ice Crystal before combat to significantly reduce the boss’s ranged capabilities.\n\nWhen approached or attacked, a sleeping Frostmaw awakens, swallows its Ice Crystal if still holding it, roars to announce the fight, and begins attacking. Frostmaws are highly resilient bosses, immune to arrows and thrown tridents, and capable of jumping to escape lava. If a Frostmaw remains without a target for one minute, it returns to sleep and restores the Ice Crystal to its hand. Frostmaws are aggressive toward Iron Golems and Snow Golems on sight.\n\nIn combat, Frostmaw alternates between several powerful attacks. Swipe attacks deal heavy frontal damage and may chain into double swipes with a chance to disable shields. Slam attacks are only used below 60% health and deal massive damage while instantly breaking shields, making them the most dangerous move. Frostmaw can also use Ice Breath to slow and freeze players at close range, and Ice Balls to freeze distant targets, though both ice-based attacks are disabled if the Ice Crystal is stolen. Frostmaw may also roar to knock nearby entities away without dealing damage.\n\nUpon defeat, Frostmaw always drops an Ice Crystal and the Petiole music disc, making it a rewarding but challenging encounter for well-prepared players in cold biomes.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Mowzies Cataclysm",
+          "mod_version": "unknown",
+          "category": "Boss",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "umvuthana-rag-6e3b9a1d",
+        "text": "Umvuthana, with the plural form Abavuthana, are bird-like neutral mobs found primarily in Savanna biomes and within Umvuthana Groves. They are naturally hostile toward players unless the player is wearing an Umvuthana mask. While neutral, they can be traded with and act as part of a structured hunting pack system tied to Umvuthi, the Sunbird.\n\nAbavuthana spawn in groups of four as hunting packs in Savanna biomes and also generate naturally inside Umvuthana Groves. They may additionally appear through Umvuthi’s summoning abilities or be summoned by players wearing the Sol Visage. In combat, Abavuthana attack by slashing their claws and prefer to circle their targets at a distance before closing in. They are aggressive toward players, common passive animals, zombies, and skeletons. Each pack follows an Umvuthana Raptor, and once the Raptor is defeated, the pack disperses.\n\nAbavuthana are immune to magma block and campfire damage, and when moving they leave visible footprints on the ground. Player-summoned Abavuthana will follow their owner and attack any mob the owner targets, and they can be dismissed by right-clicking to recover their mask.\n\nAbavuthana remain neutral toward players wearing Umvuthana masks but become aggressive if the player attacks an Umvuthana or Umvuthi, or opens chests within the grove. Each mask grants a passive status effect, such as Jump Boost, Swiftness, Resistance, or Haste, depending on the mask type worn.\n\nPlayers wearing masks may trade with Abavuthana for food, gold nuggets, feathers, campfires, and other basic resources. When killed, Abavuthana drop one to two feathers and occasionally their mask, which can be worn for bonuses or used with the Sol Visage to summon additional Umvuthana.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Mowzies Cataclysm",
+          "mod_version": "unknown",
+          "category": "Neutral Mob",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "axe-thousand-metals-rag-5f8c1d3a",
+        "text": "The Axe of a Thousand Metals is a powerful weapon associated with the Ferrous Wroughtnaut. Ferrous Wroughtnauts always drop an Axe of a Thousand Metals upon death, making it a guaranteed boss loot item. Although the boss wields the axe during combat, the weapon is not actually stored in its inventory and is instead built directly into the Wroughtnaut’s model.\n\nWhen used by the Ferrous Wroughtnaut, the Axe of a Thousand Metals has two devastating attacks. One attack is a wide side swing that deals 30 damage, while the second slams the axe into the ground, dealing 45 damage and temporarily immobilizing the Wroughtnaut. This slam attack is significantly stronger than the player version and represents the peak power of the weapon when wielded by the boss.\n\nIn the hands of a player, the Axe of a Thousand Metals is still a strong melee weapon but noticeably weaker than when used by the Wroughtnaut. A standard left-click attack deals 9 melee damage with a slow attack speed of 0.9. By right-clicking, players can perform a swing attack similar to the boss’s side swing, though it only deals 7 damage. This attack is useful for hitting multiple enemies in front of the player.\n\nThe axe also features a special slam ability. By crouching and right-clicking on the ground, the player can slam the axe to create a shockwave extending up to 10 blocks. The direct hit deals 9 melee damage, while the shockwave damage scales based on distance from the impact point.\n\nAccording to trivia, much of the axe’s power is lost when the Ferrous Wroughtnaut is defeated. This explains why the weapon is significantly stronger in the boss’s hands and reinforces its identity as a legendary tool whose full strength dies with its wielder.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Axe of a Thousand Metals",
+          "mod_version": "unknown",
+          "category": "Weapon",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "suns-blessing-rag-9d4e7b2c",
+        "text": "Sun’s Blessing is a powerful temporary status effect obtained by trading with Umvuthi, the Sunbird. Players can acquire this blessing by exchanging seven Blocks of Gold with Umvuthi while wearing the appropriate Umvuthana mask. Once obtained, Sun’s Blessing grants the player access to several solar-based abilities inspired by Umvuthi’s own attacks.\n\nWith Sun’s Blessing active, players can right-click the ground to call down a Sun Strike from the sky, damaging enemies at the targeted location. By shift-right-clicking, players can unleash a Sun Beam directly from themselves, firing a powerful solar attack forward. Pressing shift and left-click allows the use of Solar Flare, creating an area-of-effect burst that deals damage and applies strong knockback to nearby entities. The most powerful ability, Supernova, is activated by pressing shift, left-click, and right-click simultaneously. This attack pulls nearby entities toward the player before triggering a fiery explosion that deals heavy damage.\n\nThe Sun’s Blessing effect lasts for one hour, but the countdown does not begin until the player uses one of its abilities. Some abilities are free to use, while others consume the remaining duration. Sun Strike and Solar Flare do not reduce the effect duration at all. Using Sun Beam reduces the remaining time by five minutes, while activating Supernova immediately removes the Sun’s Blessing effect entirely.\n\nAfter the Sun’s Blessing effect expires, players can return to Umvuthi to replenish the blessing for free, allowing repeated use without additional gold costs as long as Umvuthi remains available.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Sun's Blessing",
+          "mod_version": "unknown",
+          "category": "Status Effect",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "foliaath-seed-rag-3b7e9c1a",
+        "text": "Foliaath Seed is a plantable item used to spawn a Baby Foliaath. It is directly tied to Foliaath mobs and serves as the primary method for players to intentionally create new Foliaaths rather than encountering them naturally in the world.\n\nFoliaath Seeds are obtained as mob drops. When a Foliaath is killed, it can drop between zero and two Foliaath Seeds by default. Weapons enchanted with Looting increase the potential yield, granting one additional possible seed per Looting level. With Looting III, players can obtain up to five Foliaath Seeds from a single Foliaath, making enchantments useful for farming this item.\n\nIn terms of usage, Foliaath Seeds can be planted on several ground types, including grass blocks, podzol, and dirt paths. When a seed is planted on a valid block, it immediately spawns a Baby Foliaath at that location instead of growing through multiple stages like conventional crops.\n\nThe spawned Baby Foliaath represents an early stage of the Foliaath mob and will eventually function as a full Foliaath. This allows players to deliberately place Foliaaths for controlled encounters, farms, or decorative purposes. Because Foliaaths are hostile ambush mobs, planting these seeds should be done carefully, especially in survival environments.\n\nOverall, Foliaath Seeds provide a direct way to reproduce Foliaaths and interact with their lifecycle, giving players more control over how and where these dangerous plant creatures appear.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Foliaath Seed",
+          "mod_version": "unknown",
+          "category": "Item",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "naga-fang-rag-4e9c2a7d",
+        "text": "Naga Fangs are items dropped by Nagas and serve as key progression materials tied to defeating these dangerous flying mobs. They represent the primary reward for hunting Nagas and are used in both crafting and brewing, making them valuable for combat-oriented and survival-focused gameplay.\n\nNaga Fangs are obtained exclusively through mob loot. When a Naga is killed, it drops between zero and one Naga Fang by default. Using a weapon enchanted with Looting increases the potential drop amount, adding one additional possible fang per Looting level. With Looting III, players can receive up to four Naga Fangs from a single Naga, significantly improving farming efficiency for this resource.\n\nIn terms of usage, Naga Fangs function as crafting ingredients and brewing components. They are required to craft Naga Fang Daggers, weapons typically associated with poison-based combat and fast melee attacks. This makes them especially useful for players who prefer agile or status-effect-focused fighting styles.\n\nNaga Fangs are also used in brewing to create Potions of Poison Resistance. These potions provide protection against poison effects, which are commonly inflicted by Nagas themselves and other venomous enemies. This creates a natural progression loop where defeating Nagas enables players to better defend against poison-based threats in future encounters.\n\nOverall, Naga Fangs are a versatile drop that rewards players for overcoming challenging aerial enemies and supports both offensive weapon crafting and defensive potion brewing.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Naga Fang",
+          "mod_version": "unknown",
+          "category": "Item",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "ice-crystal-rag-8a2c6e5d",
+        "text": "The Ice Crystal is a rare ranged weapon associated with the Frostmaw boss and is designed for crowd control through freezing effects. It allows players to generate icy whirlwinds that damage and immobilize enemies from a distance, making it especially useful in controlling aggressive mobs or creating openings in combat.\n\nThe Ice Crystal can be obtained in two different ways, both tied to encounters with Frostmaw. If a player approaches a sleeping Frostmaw quickly enough, the Ice Crystal can be stolen directly from its hand before it closes, weakening the boss before the fight begins. Alternatively, if the Frostmaw has already swallowed the crystal during combat, the Ice Crystal can be acquired by killing the Frostmaw, guaranteeing it as a drop.\n\nWhen used, the Ice Crystal functions as a channeled weapon. By holding right-click while the Ice Crystal is in hand, the player summons an icy whirlwind in front of them. This whirlwind continuously deals 1 point of damage to enemies caught within it. After approximately three seconds of sustained contact, affected entities become frozen, rendering them unable to move for a short duration.\n\nThis freezing effect makes the Ice Crystal particularly effective for slowing down powerful enemies, managing groups, or setting up follow-up attacks with other weapons. Although its direct damage output is low, its ability to immobilize targets gives it strong utility value in both exploration and boss encounters.\n\nOverall, the Ice Crystal is a unique control-focused weapon that rewards careful positioning and timing, offering strategic advantages rather than raw damage.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Ice Crystal",
+          "mod_version": "unknown",
+          "category": "Weapon",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "earth-talisman-rag-001",
+        "text": "Earth Talisman is an item that can only be obtained in the Creative game mode. It grants the Geomancy effect while in the player's inventory.\n\nThe Earth Talisman is obtainable only in the Creative mode inventory or using commands.\n\nWhile having the Earth Talisman inside the player's inventory, they will receive the Geomancy effect. This effect lets the player right-click the ground to summon Boulders of various sizes, depending on how long the right mouse button is hold. It also allows the player to tunnel, by double-tapping and holding sneak while on air.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Earth Talisman",
+          "mod_version": "unknown",
+          "category": "items",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "deeper-and-darker-rag-001",
+        "text": "The Deeper and Darker mod transforms Minecraft’s Deep Dark into a gateway to a completely new dimension filled with terrifying creatures, powerful equipment upgrades, and mysterious structures. This comprehensive expansion builds upon the Warden mechanics introduced in the 1.19 update, creating a natural progression for players. They will go from confronting the Warden in Ancient Cities to exploring the haunting realm known as the Otherside.\n\nPlayers can look forward to discovering advanced armor sets that are even stronger than Netherite. They will have the opportunity to craft unique items such as the Soul Elytra and the Sonorous Staff, while also facing formidable boss creatures.\n\nThe journey will take place across three distinct biomes, each filled with exclusive resources and challenges. This guide will help players navigate every aspect of the mod, starting with the initial preparations needed to survive in the Otherside, and progressing to mastering the complex crafting systems required to create the most powerful equipment in Minecraft.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Deeper and Darker",
+          "mod_version": "unknown",
+          "category": "dimensions",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "deeper-and-darker-rag-002",
+        "text": "Success in the Otherside dimension requires extensive preparation, as this realm presents challenges that exceed even the Nether’s dangers. Players must gather specific equipment and resources before attempting to activate the portal, as the dimension’s unique properties make survival extremely difficult without proper gear.\n\nThe foundation of Otherside exploration begins with defeating the Warden, which drops two essential items: the Warden Carapace and the Heart of the Deep. The Warden retains its formidable 500 health points and devastating 30 attack damage, making this encounter one of the most challenging fights in vanilla Minecraft.\n\nPlayers should approach this battle equipped with full Netherite armor, powerful weapons, and ample healing supplies. The Heart of the Deep functions as the activation key for the Otherside portal and cannot be obtained through any other means. This rare drop is consumed upon portal activation, so players planning multiple journeys must defeat additional Wardens or secure a reliable return method.\n\nThe Warden Carapace is used as a critical crafting ingredient for the Reinforced Echo Shard, which enables the upgrade of Netherite equipment into powerful Warden-tier gear, forming the backbone of late-game progression in the mod.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Deeper and Darker",
+          "mod_version": "unknown",
+          "category": "progression",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "deeper-and-darker-rag-003",
+        "text": "The Reinforced Echo Shard represents the bridge between vanilla Netherite equipment and the mod’s enhanced Warden gear. Crafting this item requires one Warden Carapace, four Echo Shards, and four Phantom Membranes. Echo Shards are found in Ancient City chests, while Phantom Membranes drop from Phantoms that spawn when players have not slept for several nights.\n\nThe materials must be arranged in a crafting table with Phantom Membrane, Warden Carapace, and Phantom Membrane across the top row; Warden Carapace, Echo Shard, and Warden Carapace in the middle row; and Phantom Membrane, Warden Carapace, and Phantom Membrane across the bottom row. This recipe produces one Reinforced Echo Shard, which can be used to upgrade any piece of Netherite equipment via a Smithing Table.\n\nUpgrading Netherite gear further requires the Warden Upgrade Smithing Template. This template can be found in Ancient City chests with an approximate 60% chance. Like other Smithing Templates, it can be duplicated using seven Diamonds, one existing Warden Upgrade Smithing Template, and one Sculk block. Once players have both a Reinforced Echo Shard and a Warden Upgrade Smithing Template, they can upgrade Netherite equipment into Warden-tier gear that provides superior stats and special properties essential for surviving in the Otherside.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Deeper and Darker",
+          "mod_version": "unknown",
+          "category": "crafting",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "deeper-and-darker-rag-004",
+        "text": "The Otherside dimension is extremely dark, limiting visibility to only a few blocks ahead. To survive effectively, players are strongly encouraged to obtain the Warden Helmet, which provides essential advantages for navigating this environment. Crafting the Warden Helmet requires defeating the Warden, which drops two new items: the Warden Carapace and the Heart of the Deep.\n\nA single Warden Carapace can be combined with four Phantom Membranes and four Echo Shards to create a Reinforced Echo Shard. Phantom Membranes are dropped by Phantoms that spawn when players do not sleep for several nights, while Echo Shards can be found in chests located within Ancient Cities. The Reinforced Echo Shard is a key upgrade material for converting Netherite equipment into Warden-tier gear.\n\nFor players not yet ready to fight the Warden, an alternative method exists. New Ancient Vases found in Ancient Cities have a small chance to drop the Warden Carapace along with other resources. However, breaking these vases is risky, as each one has a chance to spawn the Stalker, a powerful boss enemy, and excessive noise may still summon the Warden.\n\nOnce a Reinforced Echo Shard is obtained, it can be applied to a Netherite Helmet using a Smithing Table to create the Warden Helmet. Other Netherite armor pieces such as Boots, Leggings, and Chestplate can also be upgraded, granting additional benefits including a movement speed boost. With the Warden Helmet equipped and sufficient supplies like food, armor, and building blocks, players are prepared to enter the Otherside.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Deeper and Darker",
+          "mod_version": "unknown",
+          "category": "getting_started",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "deeper-and-darker-rag-005",
+        "text": "To enter the Otherside, players must travel to an Ancient City and locate the Portal Frame. Before activation, all Sculk must be cleared from the frame, as its presence prevents the portal from functioning. Activation requires the Heart of the Deep, an item obtained exclusively by defeating the Warden. By right-clicking the cleared Portal Frame with the Heart of the Deep, the portal becomes active and allows travel to the Otherside.\n\nThe portal functions similarly to a Nether Portal, allowing players to return to the Overworld freely as long as the portal remains accessible. However, players are strongly advised to record the portal’s coordinates, as losing access to it leaves death as the only method of return.\n\nWithin the Otherside, players can explore several distinct biomes, including the Echoing Forest, Otherside Deeplands, and Overcast Columns. The Echoing Forest features Echo Trees illuminated by Sculk Gleam, which can be harvested for planks. Despite the new environment, the Warden is still capable of spawning here, requiring constant caution.\n\nThe Otherside Deeplands resemble Nether Wastes terrain and contain minimal natural lighting. Bone-based structures can generate throughout this biome, and large deposits of Sculk Gleam are found on ceilings, alongside frequent Phantom spawns. Sculk Stone generates throughout these regions and can be mined and crafted into various building blocks such as brick, tiled, and chiseled variants.\n\nThe Overcast Columns biome is composed primarily of Gloom Sculk, Gloom Slate, and Crystallized Amber. Geysers scattered across the floor can launch players into the air. Although cave systems do not generate in the Otherside, Overworld ores can still be found embedded within Sculk Stone. Gloom Slate can also be collected and crafted into additional decorative building blocks.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Deeper and Darker",
+          "mod_version": "unknown",
+          "category": "dimension_travel",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "deeper-and-darker-rag-006",
+        "text": "The Ancient Temple is a structure found within the Otherside Deeplands. Inside, players can discover multiple Chests and Vases containing valuable loot such as food, Echo Shards, Enchanted items, and Music Discs. By breaking the blocks located at the center of the structure, players can descend deeper into the temple, reaching a flooded chamber that contains additional Chests and Vases with further rewards.\n\nChests within the deeper sections of the Ancient Temple can contain the Sculk Transmitter. This unique item allows players to bind it to a Chest or Barrel, enabling remote access from a distance. Ancient Temples are also a reliable source of Sculk Stone Diamond Ore, which can be mined to obtain Diamonds.\n\nSeveral hostile mobs inhabit the Otherside. In the Echoing Forest, players may encounter the Shattered, a wandering enemy that has a chance to drop Soul Dust when defeated. In the Deeplands, Sculk Centipedes can be found and slain for Sculk Bones. These creatures can be tamed using Enchanted Netherite Chestplates to occasionally provide Enchanted Books, though their behavior may currently be unstable and risky.\n\nInfested Sculk blocks can trigger Shriek Worms when stepped on, causing them to emerge and attack the player. These enemies do not drop loot. Additionally, breaking Vases anywhere in the Otherside has a chance to spawn the Stalker, a dangerous boss mob. Defeating the Stalker is the primary method for obtaining the Soul Crystal, making these encounters both risky and rewarding.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Deeper and Darker",
+          "mod_version": "unknown",
+          "category": "structures_and_mobs",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "deeper-and-darker-rag-007",
+        "text": "An obtainable reward for exploration in the Otherside is the Soul Elytra, which acts as an upgrade to the standard Elytra. To craft it, players require one Elytra, four Sculk Bones, three Soul Dust, and one Soul Crystal. Aside from the Elytra itself, all required materials can be obtained from creatures found within the Otherside.\n\nWhen equipped, the Soul Elytra has a random chance to provide a movement boost. This effect triggers so frequently that players rarely need to carry Firework Rockets for sustained flight. Sculk Bones are obtained from Sculk Centipedes, Soul Dust drops from the Shattered, and Soul Crystals are acquired by defeating the Stalker.\n\nBefore entering the Otherside, obtaining a Warden Helmet is strongly recommended, while other upgraded equipment is optional. Players may still choose to upgrade all Netherite armor and tools to Warden-themed variants. Additionally, the Sculk Smite enchantment can be applied to deal increased damage against Sculk-based creatures, further improving survivability and combat effectiveness in the Otherside.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Deeper and Darker",
+          "mod_version": "unknown",
+          "category": "equipment",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "ixeris-rag-001",
+        "text": "Ixeris is a client-side performance optimization mod that improves Minecraft framerate smoothness by offloading event polling to a separate thread, freeing up more CPU time for rendering. Players may notice FPS drops when moving the mouse or turning the camera, partly due to legitimate tasks such as chunk visibility calculations. However, a significant portion of this slowdown comes from inefficiencies in native event polling code and JNI upcall overhead, where CPU time that could otherwise be used for rendering is instead consumed by calls to glfwPollEvents().\n\nThis issue is especially noticeable on Windows systems, and becomes more severe when using mice with high polling rates. In these situations, event polling can frequently block the render thread, resulting in stutters and inconsistent frame pacing during camera movement.\n\nIxeris resolves this problem by ensuring that glfwPollEvents() is handled in a way that no longer blocks the render thread. While GLFW retrieves events from the operating system, the render thread is able to continue its work uninterrupted. As a result, players experience significantly smoother camera movement and reduced stuttering when turning or looking around.\n\nWhile Ixeris does not generally increase FPS when the player is standing still, it greatly improves frame consistency and perceived smoothness during active gameplay, particularly during mouse movement and camera rotation.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Ixeris",
+          "mod_version": "unknown",
+          "category": "performance",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "easy-disenchanting-rag-001",
+        "text": "Easy Disenchanting is a vanilla-friendly mod that allows players to extract enchantments from gear using only an anvil, without adding any new blocks or items to the game. The mod is designed to integrate seamlessly with existing Minecraft mechanics, making it intuitive and familiar for players who prefer a minimal and balanced gameplay experience.\n\nThis mod is a rewrite of Enchantment Transfer, updated for newer Minecraft versions and improved with important bug fixes and enhancements. One of its key improvements is the ability to transfer enchantments not only onto empty books, but also onto already enchanted books. When combining enchantments, the mod follows the same rules as vanilla enchanted book merging, ensuring consistency with standard gameplay.\n\nUsing Easy Disenchanting is straightforward. Players simply place an enchanted item, such as a sword, together with a book into an anvil to extract the enchantments. If the goal is to merge enchantments onto an already enchanted book, the enchanted book must be placed in the first anvil slot. The resulting book will contain the combined enchantments, while the original item is returned to the player.\n\nBy default, the experience level cost matches vanilla enchantment combination costs, preserving balance. Both the cost and whether the original item is returned can be adjusted through the configuration file, allowing pack creators and players to fine-tune the mod to their preferred level of difficulty.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Easy Disenchanting",
+          "mod_version": "unknown",
+          "category": "gameplay",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "early-bedtime-rag-001",
+        "text": "Early Bedtime is a lightweight, vanilla-friendly mod designed for modpack developers and server owners who want more control over when players are allowed to sleep. Instead of being locked to Minecraft’s default sleep timing, this mod makes it possible to configure how early sleeping becomes available during the day–night cycle, improving flexibility without introducing new mechanics or items.\n\nBy default, Early Bedtime allows players to sleep 1000 ticks earlier than vanilla Minecraft, which is roughly 50 seconds sooner. This value is fully configurable through the mod’s settings, allowing servers and modpacks to fine-tune the sleeping window to better match their desired gameplay balance or visual experience.\n\nThe primary motivation behind Early Bedtime is compatibility with shader packs. Many popular shaders feature highly exaggerated and dramatic sunsets that cause the world to appear very dark well before vanilla Minecraft normally allows sleeping. While this visual effect looks impressive, it can feel unintuitive when players are unable to sleep despite near-dark conditions.\n\nFor example, with shaders such as Hysteria, lighting conditions darken rapidly, but vanilla Minecraft still requires the sun to drop below the horizon before sleep is permitted. Early Bedtime resolves this mismatch by aligning sleep mechanics more closely with visual darkness, resulting in a smoother and more immersive experience for shader users.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Early Bedtime",
+          "mod_version": "unknown",
+          "category": "server_utilities",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "sound-physics-rag-001",
+        "text": "This update introduces a speed of sound simulation, adding distance-based audio delays that make sound behavior more realistic and immersive. Sounds are delayed depending on how far their source is from the player. Thunder and explosion sounds are enabled by default with a speed of 100 blocks per second, while all other sounds are disabled by default and can be configured individually.\n\nA new Doppler effect option has been added, enabled at 100% intensity by default. This feature dynamically adjusts sound pitch based on how quickly the distance between the player and the sound source changes, creating a more realistic sense of motion. Due to sound engine limitations, the Doppler effect does not function on mono sounds.\n\nThe update also includes a fix for the vanilla Minecraft bug MC-98200, where sound category volume sliders did not properly affect certain sounds at higher percentages. For example, music discs previously reached full volume at only 25% category volume; this behavior has now been corrected.\n\nAdditional changes include an updated settings menu and renamed or reformatted configuration keys. Older configuration formats are automatically converted to the new format to ensure a smooth transition. Several fixes were implemented, including compatibility with Sound Physics Remastered, improved custom music frequency distribution to ensure uniform playback chances, and enhanced mono audio support so sounds can now be positioned relative to the camera.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Sound Physics",
+          "mod_version": "unknown",
+          "category": "audio",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "twilight-forest-rag-001",
+        "text": "The Twilight Forest can only be accessed by creating a special portal in the Overworld. To construct the portal, players must dig a 2x2 hole, fill it with water, and surround the pool with natural decorative items such as flowers, plants, or mushrooms from vanilla Minecraft or compatible mods. Once the setup is complete, throwing a Diamond into the water will cause lightning to strike, transforming the pool into an active portal that leads to the Twilight Forest. Upon entering the dimension, a return portal back to the Overworld is automatically created.\n\nWhen entering the Twilight Forest for the first time, it is strongly recommended to wait patiently while the dimension generates. The Twilight Forest is a large and complex dimension containing many different dungeons and structures, which can cause generation to take a noticeable amount of time. Players are also advised to mark the portal’s location on their minimap before exploring, as the vast size of the dimension makes it easy to become lost, even with an overhead map.\n\nIf a player loses their original portal and cannot find their way back, another Twilight Forest portal can be created by repeating the same process used in the Overworld. This ensures that players are never permanently stranded and can always return by recreating the portal conditions.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "The Twilight Forest",
+          "mod_version": "unknown",
+          "category": "dimension_travel",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "twilight-forest-rag-002",
+        "text": "The Twilight Forest features a wide variety of unique saplings that grow into specialized trees, each offering distinct visual styles and gameplay functionality. The Sickly Twilight Oak Sapling grows into a smaller and spindly version of the classic Twilight Oak, providing a more compact tree form. The Canopy Tree Sapling produces an enormous tree with a wide, flat leaf canopy that casts a permanent shadow beneath it, significantly darkening the area below.\n\nThe Twilight Mangrove Sapling grows into a water-dependent tree with twisted root systems, commonly found in swamp-like environments. The Darkwood Sapling creates a tree with extremely dense leaves that block light, fitting the eerie atmosphere of the Dark Forest biome. For players seeking massive structures, the Robust Twilight Oak Sapling grows into a colossal oak tree capable of reaching the world height limit.\n\nSeveral saplings provide powerful utility effects. The Tree of Time Sapling grows a magical tree that greatly accelerates the growth speed of nearby crops and machines. The Tree of Transformation Sapling slowly converts the surrounding biome into the Enchanted Forest over time. The Miner’s Tree Sapling uses its underground roots to extract valuable ores from below and bring them to the surface. The Sorting Tree Sapling automatically pulls items from nearby chests and organizes them into other containers. Finally, the Rainbow Oak Sapling grows a visually striking oak tree with multicolored leaves that continuously cycle through the color spectrum.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "The Twilight Forest",
+          "mod_version": "unknown",
+          "category": "flora",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "twilight-forest-rag-004",
+        "text": "The Twilight Forest introduces a wide range of unique materials and resources that support advanced crafting and progression. Armor Shards are small fragments dropped by Helmet Crabs and are intended for crafting Knightmetal equipment. Borer Essence is a rare drop from Tower Borers and is mainly used in specialized crafting recipes. Carminite is a volatile, redstone-like substance found in the Dark Tower and is used for advanced machinery and gadgets.\n\nFiery Blood is a rare fluid dropped by the Hydra and is used to infuse iron into Fiery Ingots. Fiery Ingots are used to craft powerful gear that sets enemies on fire and automatically smelts mined ores. Ironwood Ingots are created by combining iron with Liveroot and gold, producing magical equipment with built-in enchantments. The raw materials for Ironwood consist of Liveroot and gold before processing.\n\nKnightmetal is a heavy-duty metal forged from Armor Shards and is used for durable weapons and armor. Naga Scales are dropped by the Naga and are used to craft lightweight but protective armor pieces. Steeleaf is an organic magical material found in dungeon chests and is used to craft gear that often comes pre-enchanted. Liveroot is a rare plant found in hollow hills and serves as a core ingredient for Ironwood. Torchberries are glowing plants found in caves and are used to craft torches and Magic Map Focuses, while Raven’s Feathers are dropped by Forest Ravens and are required for magic map crafting. Transformation Powder is a magical substance used to convert Twilight Forest mobs into their Overworld equivalents and vice versa.\n\nThe mod also features several themed equipment sets. The Fiery Set provides fire resistance, ignites enemies, and offers high durability. The Ironwood Set is a mid-tier option that comes with useful enchantments such as Aqua Affinity and Efficiency. The Steeleaf Set is highly enchantable and commonly includes enchantments like Fortune, Looting, or Protection. Finally, the Naga Scale Tunic and Leggings provide lightweight armor with strong protection and frequent defensive enchantments.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "The Twilight Forest",
+          "mod_version": "unknown",
+          "category": "materials_and_gear",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "twilight-forest-rag-005",
+        "text": "The Twilight Forest includes a wide selection of charms, maps, utility items, and consumables that support exploration, survival, and progression. Charms of Keeping are available in three tiers and allow players to retain part or all of their inventory upon death depending on the tier. Charms of Life automatically activate when the player’s health reaches zero, consuming themselves to heal the player and apply beneficial effects.\n\nMapping tools are essential for navigating the dimension. A Blank Magic Map is used to create a Magic Map, which reveals Twilight Forest terrain and displays icons for boss structures. Crafting a Magic Map requires a Magic Map Focus made from Torchberries and Raven Feathers. For underground exploration, Blank Maze Maps can be crafted into Maze Maps that reveal the layout of Minotaur Labyrinths. Maze Map Focuses are rare components used for maze mapping. More advanced options include Blank Maze/Ore Maps, which can become Maze/Ore Maps that display both labyrinth paths and nearby ore veins.\n\nUtility tools include the Ore Magnet, which pulls ore blocks toward the player from underground, and the Ore Meter, a work-in-progress device intended to help locate specific ores. The Tower Key is a progression item required to unlock sealed doors inside the Ur-ghast’s Dark Tower.\n\nThe mod also adds several unique food items. Experiment 115 is a cake-like food found in the Dark Tower with high saturation. Maze Wafers are a common bread-style food found in labyrinths. Meef, dropped by Minoshrooms, can be eaten raw or cooked into Meef Steak, or crafted into Meef Stroganoff, which is required to progress through the swamp biome. Twilight Deer drop Venison, and the Hydra Chop is a powerful late-game food providing massive saturation and health regeneration.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "The Twilight Forest",
+          "mod_version": "unknown",
+          "category": "charms_and_utilities",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "automation-features-rag-001",
+        "text": "This mod adds a collection of automation- and redstone-focused features designed to expand vanilla-style mechanics without overcomplicating gameplay. Animals Eat Floor Food allows vanilla animals to automatically consume their breeding food directly from the ground whenever they are able to be fed manually, as long as the food item is nearby. Chain Linkage enables players to link boats or minecarts together by right-clicking them in sequence, allowing the creation of trains that remain closely connected.\n\nThe Chute is a new automation block that instantly drops any inserted items directly below it, always centered. Items can be inserted via automation such as hoppers or droppers, and the Chute can be disabled using a redstone signal or by placing a block underneath it. Dispenser Records allows dispensers to interact with jukeboxes, playing records when a jukebox is placed in front, and returning records back into the dispenser if one is already playing.\n\nSeveral redstone components are introduced. The Ender Watcher emits a full redstone signal when a player looks directly at it. Metal Buttons are crafted by combining wooden buttons with iron or gold ingots; gold buttons emit very short pulses, while iron buttons emit long pulses lasting several seconds. Obsidian Pressure Plates only activate when players step on them. Pistons can now push dropped items, while sticky pistons are able to pull them back.\n\nAdditional components include the Rain Detector, which outputs a full signal during rain or snow and can be inverted by right-clicking, the Redstone Inductor, which sums signals from three sides and can be locked to preserve its output, and the Redstone Randomizer, which randomly outputs a signal to the left or right when powered. Finally, the Sugar Block acts as a storage block that falls like sand and dissolves when placed next to water.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Supplementaries",
+          "mod_version": "unknown",
+          "category": "automation",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "supplementaries-building-rag-001",
+        "text": "This mod expands Minecraft’s building options with a wide variety of decorative blocks that stay close to a vanilla aesthetic while greatly increasing creative freedom. Bark Blocks are log-style blocks with bark textures on all sides and can be crafted into walls. Carved Wood serves as a core decorative wood block, while Charred Nether Bricks provide a dark, slate-like tone with stair and slab variants. Duskbound Blocks introduce purple-themed blocks with full building variants and matching Duskbound Lamps.\n\nFramed Glass offers a rustic or medieval look and includes pane variants. Hardened Clay Tiles add tiled designs for hardened and stained clay in all colors, with stairs and slabs suitable for roofs. Iron Plates, Magma Bricks, and Midori Blocks further diversify materials, with Midori acting as a green counterpart to Purpur. Sandstone receives additional variants such as Polished Sandstone and Sandstone Bricks for both normal and red sandstone, expanding slab and stair options.\n\nNether and stone-themed additions include Polished Netherrack, Polished Stone, Sandy Bricks, Snow Bricks, and Soul Sandstone, all supporting standard building variants. Quilted Wool introduces framed wool blocks in every color, while Stained Planks add pastel-colored wooden planks with stairs and slabs. Sturdy Stone is a piston-immovable block using a furnace-like texture.\n\nOrganic and utility blocks include Sugar Cane Blocks, Thatch, and Turf, all reversible and usable for stairs and slabs. The mod also adds stairs, slabs, and walls for many vanilla materials, along with World Stone Bricks and World Stone Pavement inspired by Portuguese sidewalks, making it ideal for detailed and varied builds.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Supplementaries",
+          "mod_version": "unknown",
+          "category": "building",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "waystones-rag-001",
+        "text": "The core feature of the Waystones mod is the Waystone itself, a teleportation structure that commonly generates in villages and, on rare occasions, spawns randomly throughout the world. Waystones allow players to instantly travel between previously activated locations. Short-distance travel is free, while longer-distance teleportation consumes Experience levels. In addition to naturally generating, Waystones are fully craftable, allowing players to strategically place fast travel points wherever needed.\n\nWaystones greatly enhance exploration and mobility by reducing long travel times, while still maintaining balance through experience costs. Once a Waystone is activated, it becomes part of the player’s teleport network and can be accessed through various items provided by the mod.\n\nThe mod also introduces several teleportation-related items. The Return Scroll allows players to teleport back to their most recently used spawn point, such as a bed or Waystone. Bound Scrolls enable players to share access to activated Waystones with others, making coordinated travel easier in multiplayer environments. Warp Scrolls allow direct teleportation to a previously activated Waystone, while the Warp Stone acts as a rechargeable alternative that can be reused instead of being consumed.\n\nAdditional specialized teleportation tools include the Sharestone, which functions like a Waystone but only connects to others of the same color, enabling segmented travel networks. Portstones act as one-way teleporters that send players to a chosen activated Waystone. Finally, Warp Plates come in linked pairs and allow teleportation between each other once connected using an Attuned Shard, supporting custom and automated travel setups.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Waystones",
+          "mod_version": "unknown",
+          "category": "teleportation",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "natures-compass-rag-001",
+        "text": "Nature’s Compass is a utility item that helps players locate any biome in the game, including those added by mods. It is designed to simplify exploration by removing the guesswork involved in finding specific environments needed for progression, resources, or structures.\n\nUsing the Nature’s Compass is straightforward. By right-clicking the compass, players can either type the name of the biome they want to locate or scroll through a complete list of all available biomes. Each biome entry displays useful information such as its name, weather type, biome tags, and the mod it originates from, making it especially helpful in large modpacks with many custom biomes.\n\nAfter selecting a biome and double-clicking it, the compass will begin searching for the nearest instance of that biome within a 10,000 block radius of the player’s current position. If a valid biome is found within this range, the compass will guide the player toward it. If no matching biome exists within the search radius, the compass will not activate, indicating that the player may need to travel further away before attempting another search.\n\nNature’s Compass is particularly valuable in modded environments where biome distribution can be complex or unfamiliar. By providing clear biome information and directional guidance, it saves time, reduces frustration, and encourages more focused exploration.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Nature's Compass",
+          "mod_version": "unknown",
+          "category": "navigation",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "aether-rag-001",
+        "text": "The Aether is one of the most iconic dimension mods in Minecraft, often described as the celestial opposite of the Nether. It introduces a floating world of sky islands filled with unique ores, mythical creatures, and dangerous dungeons. In modern modpacks, players typically encounter either the maintained version of Aether I or the expanded Aether II, both of which share core mechanics and progression systems.\n\nAccessing the Aether requires a special portal distinct from other dimensions. Players must construct a vertical 4x5 frame made entirely of Glowstone. To activate the portal, the inner bottom block of the frame is right-clicked with a Water Bucket, instantly opening a gateway to the Aether. Unlike the Nether, falling out of the dimension does not result in immediate death. Instead, players fall through the clouds and respawn safely in the Overworld at the same X and Z coordinates, but high in the sky.\n\nThe Aether follows unique gameplay rules that differ significantly from the Overworld. Standard tools such as Iron and Diamond are highly ineffective, breaking slowly and losing durability rapidly. To progress efficiently, players must craft Aether-specific tools made from materials like Skyroot, Holystone, and Zanite. Fire-based mechanics and TNT do not function in this dimension, removing common combat and mining strategies.\n\nSurvival heavily depends on mobility. Parachutes are a critical item crafted from Cloud Parashots, allowing players to glide safely between floating islands and survive long falls, making them essential for exploration and progression.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "The Aether",
+          "mod_version": "unknown",
+          "category": "dimension",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "aether-rag-002",
+        "text": "The Aether features a distinct material and progression system that differs significantly from the Overworld. Skyroot is harvested from Skyroot Trees and functions as the basic wood equivalent. When used to craft sticks or bowls, Skyroot tools provide double drops, making it valuable early on. Holystone is the most common rock type in the Aether and serves as the stone equivalent. When mined, it occasionally drops Ambrosia Shards, which are useful for survival and progression.\n\nZanite is a purple ore that acts as the Aether’s iron-tier material. Zanite equipment has a unique mechanic where its strength increases as durability decreases, rewarding continued use. Gravitite is a rare pink ore that functions as the diamond-tier material of the Aether. Gravitite blocks naturally float upward unless restrained, and tools crafted from Gravitite can launch mobs into the air, offering strong combat utility.\n\nProgression in the Aether is structured around a tiered dungeon system. Dungeon blocks cannot be mined until the dungeon boss is defeated, enforcing linear progression. The Bronze Dungeon, also known as the Labyrinth, features a maze-like structure filled with Mimics and Sentries. Its bosses are the Sentry Queen or the Slider, and its loot includes Valkyrie tools or the Phoenix Bow.\n\nThe Silver Dungeon, called the Valkyrie Temple, is guarded by the Valkyrie Queen. Players must first earn Victory Medals by defeating lesser Valkyries before the boss will engage. Completing this dungeon rewards Valkyrie Armor, which grants enhanced mobility such as flight or high jumps. The final tier is the Gold Dungeon, the Sun Spirit’s Peak, where players face the Sun Spirit in a dialogue-based encounter inside a massive golden sphere. Victory is achieved by reflecting fireballs back at the boss, rewarding players with Phoenix Armor or access to the Sun Altar.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "The Aether",
+          "mod_version": "unknown",
+          "category": "progression",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "aether-rag-003",
+        "text": "The Aether is home to a variety of unique creatures that play important roles in exploration, mobility, and survival. One of the most iconic creatures is the Moa, a large, rideable bird commonly used for transportation across floating islands. To obtain a Moa, players must first find a Moa Egg and hatch it using Ambrosia Shards. Moas come in different colors, and each color corresponds to a different jump capacity, making some Moas more valuable for traversing large gaps or vertical terrain.\n\nAnother notable creature is the Phyg, a flying pig native to the Aether. Phygs can be ridden using a saddle and provide an alternative means of aerial movement. However, they are more difficult to control than Moas, making them less reliable for precise travel but still useful in certain situations.\n\nAerobunnies are small, passive creatures with a unique survival function. Players can pick them up and place them on their head, which significantly reduces fall speed. This makes Aerobunnies especially helpful in emergencies or early exploration before parachutes or advanced gear are available.\n\nSwets are hostile, gelatinous blue creatures that inhabit the Aether. They attempt to absorb players on contact, pulling them inward and potentially pushing them off island edges. Because of the Aether’s vertical terrain and floating islands, Swets can be particularly dangerous when encountered near cliffs, requiring players to remain alert at all times.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "The Aether",
+          "mod_version": "unknown",
+          "category": "flora_and_fauna",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "ssn-bettermc-001",
+        "text": "Simple Storage Network (also known as SSNetwork or SSN) is a lightweight storage mod designed to provide an easy-to-use, expandable, and power-free storage system, making it ideal for early-game progression. The mod centers around connecting multiple inventories into a single network that can be accessed through tables or remotes. The core of every network is the Storage Network Master, which is mandatory and allows remotes to bind to the system. Storage inventories such as chests are connected using Storage Link Cables, while basic Storage Cables are used only to connect components together.\n\nThe mod includes several functional cables: Import Cables pull items from external inventories into the network, Export Cables push items out of the network, and Processing Cables enable basic automation and autocrafting when paired with a Controller. Each special cable (non-basic) can only connect to one inventory at a time and can be configured with a Crescent Hammer if multiple inventories are adjacent.\n\nThe Storage Request Table acts as the main interface, allowing players to view all stored items, retrieve them, and craft using an integrated 3x3 crafting grid. Multiple request tables can exist in the same network. Controllers are only required for advanced automation and crafting requests using Processing Cables.\n\nCable upgrades enhance Import and Export Cables: Speed Upgrades increase transfer rate, Stack Upgrades increase stack size per operation, Operation Upgrades control behavior based on inventory conditions, and Stock Upgrades (export-only) limit how many of an item may be exported.\n\nTwo remotes are available: the Storage Remote provides full wireless access including crafting within 64 blocks of the master, while the Simple Storage Remote allows unlimited-range access without crafting. Both remotes require being in the same dimension as the network.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Simple Storage Network",
+          "mod_version": "unknown",
+          "category": "storage",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "ssn-bettermc-002",
+        "text": "Setting up a Simple Storage Network (SSN) starts with a basic configuration that requires only a few components. Every network must include exactly one Storage Network Master, which acts as the central binding point for the system. At least one inventory, such as a chest, must be connected to the network using a Storage Link Cable. A Storage Request Table is used as the main interface to view, retrieve, and craft with items stored in the network. All components are linked together using Storage Cables. Once assembled, any item stored in the connected inventories can be accessed through the Storage Request Table.\n\nExpanding an SSN is straightforward and has no hard limits. Additional inventories can be added simply by placing more chests (or other inventories) and attaching them to the network with Storage Link Cables. As long as there is physical space and enough cables, the network can grow indefinitely. For convenience, it is strongly recommended to craft a Storage Remote early, allowing access to the network from a distance.\n\nBeyond basic storage, SSN supports limited advanced functionality. Storage Link Cables can be configured with priority values, which control where incoming items are stored. Inventories with lower priority values are checked first, allowing players to direct specific items into designated storage before filling others. Storage Link Cables can also be set to Output Only mode, meaning items inside the connected inventory are accessible, but new items will never be inserted into it by the network.\n\nImport and Export Cables enable interaction with external systems. Import Cables pull items into the network, while Export Cables push items out. Both support blacklist and whitelist filtering, allowing precise control over which items are transferred. This enables automation such as feeding fuel into generators or pulling generated items directly into storage.\n\nBasic automation is possible by combining Processing Cables with automated crafting blocks from other mods. This allows simple automated processing chains and crafting tasks to be integrated into the SSN.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Simple Storage Network",
+          "mod_version": "unknown",
+          "category": "storage",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "serene-seasons-bettermc-001",
+        "text": "Serene Seasons is a Minecraft mod that introduces a dynamic seasonal system to the game world, adding visual, environmental, and gameplay changes that evolve throughout the in-game year. The mod divides the year into four distinct seasons—spring, summer, autumn, and winter—each influencing the environment in noticeable ways. Grass, leaves, and foliage gradually change color as seasons progress, creating a more immersive and natural-looking world that reflects the passage of time.\n\nTemperature mechanics are also affected by the seasonal cycle. During winter, temperatures drop, allowing snow to fall in biomes that would not normally experience snowfall. This change can alter terrain appearance and environmental behavior, making cold seasons feel meaningfully different from warmer ones.\n\nSeasons in Serene Seasons directly impact gameplay systems such as crop growth and agriculture. Certain crops may grow faster or slower depending on the current season, encouraging players to plan farming activities around the seasonal calendar. Weather patterns are also influenced, reinforcing the feeling of a living, changing world.\n\nBeyond visuals and farming, the mod integrates season-based effects into multiple game mechanics, enhancing realism without overly complicating gameplay. Serene Seasons is designed to work alongside vanilla mechanics and other mods, adding depth and immersion while remaining intuitive and accessible for survival gameplay.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Serene Seasons",
+          "mod_version": "unknown",
+          "category": "world",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "xp-tome-bettermc-001",
+        "text": "XP Tome is a lightweight gameplay-focused Minecraft mod created by bl4ckscor3 that adds a single utility item designed for safely storing player experience. The mod introduces the XP Tome item, a book that can hold and return experience levels on demand, making it useful for preventing XP loss on death or for managing experience more efficiently during gameplay.\n\nThe XP Tome has a fixed storage capacity of up to 30 experience levels, which corresponds to a total of 1,395 XP points. Once this limit is reached, the tome cannot store additional experience until some is withdrawn. The stored XP is bound to the item itself, allowing players to carry it in their inventory as a portable experience container.\n\nUsing the XP Tome is intentionally simple. Sneaking and right-clicking with the tome will store as much of the player’s current XP as possible, up to the maximum capacity of the book. Right-clicking without sneaking will retrieve all stored XP and return it directly to the player. There are no complex interfaces, power requirements, or configuration options involved.\n\nBecause of its simplicity and balance-friendly design, XP Tome integrates well into both vanilla-style survival gameplay and heavily modded environments. It is commonly used in modpacks to provide a convenient but limited solution for XP management without removing the risk-reward aspects of experience entirely.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "XP Tome",
+          "mod_version": "v1.1.6",
+          "category": "gameplay",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bounty-boards-bettermc-001",
+        "text": "Bounty Boards are a gameplay feature that provide players with optional tasks called bounties, which can be completed for rewards. Bounty Boards are indestructible blocks and cannot be crafted by players. In order for a Bounty Board to function and generate bounties, villagers must be present nearby. Each bounty normally takes 2 minutes (2,400 ticks) to generate, and this generation time is reduced as more villagers are placed near the board, up to a maximum of 15 villagers. Despite villager bonuses, there is a hard minimum generation time of 10 minutes (12,000 ticks) per bounty. Once a bounty is generated, its internal timer immediately begins counting down.\n\nEach bounty will contain either one or two objectives that the player must complete. These objectives fall into two main categories: delivering specific items or killing specific mobs. The requirements are clearly defined on the bounty itself, allowing players to know exactly what actions are needed before attempting completion.\n\nTo complete a bounty, the player must right-click any Bounty Board while holding the bounty item. The board used for completion does not need to be the same board that originally generated the bounty. For bounties that involve killing mobs, the bounty item must remain in the player’s inventory while the required mobs are being defeated; otherwise, progress will not be counted.\n\nBounties are divided into four different rarity tiers. Higher-rarity bounties provide greater rewards upon completion, granting more experience points and a higher number of Worth Units. This rarity system encourages players to pursue more challenging bounties in exchange for better rewards.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Bounty Boards",
+          "mod_version": "unknown",
+          "category": "gameplay",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "betternether-bettermc-001",
+        "text": "BetterNether is a large-scale overhaul mod that completely redesigns the Nether into a diverse, hostile, and visually rich ecosystem. Rather than a repetitive netherrack wasteland, the Nether becomes a living dimension filled with unique environments, new materials, and progression paths that reward exploration. The mod introduces over 20 distinct biomes, each featuring custom fog density, terrain composition, plants, and ambient atmosphere. Examples include Nether Grasslands, which are dense vegetation zones featuring glowing Nether Grass; Wart Forests, which expand upon vanilla Crimson and Warped Forests with massive, twisted fungal structures; Sulfuric Vineyards, which are hazardous regions filled with sulfur clouds and acidic plant life; and poorly lit underground caves populated by bioluminescent fungi such as Lucent Moss.\n\nProgression in BetterNether is supported by new materials that bridge the gap between Diamond and Netherite. One of the most common is Cincinnasite, often referred to as the \"Iron of the Nether.\" It generates in large metallic veins and is primarily used for decorative blocks, mid-tier tools, and functional structures. A key crafting block, the Cincinnasite Altar, enables specialized recipes unique to the mod.\n\nFor higher-tier progression, Nether Ruby is introduced as a rare gemstone found deep within netherrack. Ruby-based tools and armor offer strong performance and typically higher enchantability compared to Diamond equipment. Additionally, BetterNether adds Nether-native plant resources such as Nether Reed and Bark, harvested from giant trees and wet biomes. These materials allow players to craft essential wood-based items like chests, doors, and signs entirely within the Nether, supporting extended Nether-only survival gameplay.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "BetterNether",
+          "mod_version": "unknown",
+          "category": "world",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "betternether-bettermc-002",
+        "text": "BetterNether expands Nether progression with essential machinery, new lifeforms, and mechanics that enable long-term Nether-only survival. Key functional blocks are required to thrive in the dimension. The Cincinnasite Forge acts as a high-efficiency furnace designed to run on specialized Nether fuels, making it central to mid-game crafting. Soul Glass is created by smelting Soul Sand and is primarily used for unique aesthetic builds and mirror-like decorative structures. The Blackstone Stovetop functions as a cooking station for the many new food sources introduced by the mod.\n\nThe Nether is populated with custom flora and fauna that make the dimension feel alive and dangerous. Naga are flying, serpent-like creatures that are generally neutral but become problematic when players build at high elevations. Fireflies are small ambient mobs that provide natural lighting in darker biomes, enhancing atmosphere. Hydrogen Jellyfish are floating entities that explode when exposed to fire, creating environmental hazards. Jungle Skeletal Horses are rare mounts found in heavily overgrown Nether regions, offering unique mobility options.\n\nBetterNether is designed to support a full \"Nether Start\" survival experience. Since water is unavailable, players must rely on Nether Cactus or Agave, which can be processed to obtain moisture or liquid substitutes. Food sustainability is achieved through items such as Magma Cream Stew and Nether Mushrooms. Respawn Obelisks, enhanced alternatives to Respawn Anchors, provide more stable and reliable respawn points within the Nether.\n\nFor integration, BetterNether is commonly paired with BetterEnd and requires BCLib for biome blending and data handling. Shader users should be cautious, as volumetric fog and translucent plant effects can impact performance. Explorers are encouraged to seek out Nether Cities—massive procedurally generated structures built from Cincinnasite and Obsidian that contain powerful loot but are heavily guarded by dangerous mobs.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "BetterNether",
+          "mod_version": "unknown",
+          "category": "world",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "blue-skies-bettermc-001",
+        "text": "Blue Skies is a dimension-expansion mod built around the concept of two mirrored realms, each with its own atmosphere, environmental dangers, and progression. These dimensions are designed to feel distinct while complementing each other in structure and challenge.\n\nThe Everbright is themed around eternal daylight, winter, and frost. The sun never sets, creating a bright yet harsh environment dominated by snow-covered terrain and icy landscapes. The realm is inhabited by ethereal creatures and large, resilient beasts adapted to the cold. Environmental danger plays a major role here, as frequent snowstorms can drastically reduce visibility, and many hostile mobs rely on frost-based attacks rather than raw damage, making exposure and positioning critical.\n\nIn contrast, the Everdawn represents a world of eternal sunrise and sunset, defined by humidity, warmth, and dense swamp-like forests. The lighting is perpetually low and orange-tinted, giving the realm a darker, more oppressive feel. Its ecosystems are ruled by insectoid creatures and reptilian predators. Instead of cold, players must contend with poison effects, fire-based threats, and aggressive wildlife that thrives in the heat and humidity.\n\nAccessing these realms requires progression rather than simple portal crafting. Players must first locate the Gatekeeper’s House, a special structure that spawns in Plains, Mountain, or Snowy biomes. By trading a book with the Gatekeeper, players receive the Blue Journal, an in-game guide that tracks exploration progress and unlocks new information over time. Additional emerald trades grant access to the Zeal Lighter.\n\nWithin or near the Gatekeeper’s house, players can find two unlit portal frames, one for each dimension. These portals can only be activated using the Zeal Lighter, formally opening the path to the Everbright and the Everdawn.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Blue Skies",
+          "mod_version": "unknown",
+          "category": "dimensions",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "blue-skies-bettermc-002",
+        "text": "Blue Skies introduces a core progression system built around a strict \"gear reset\" mechanic that forces players to adapt to each dimension. Overworld equipment such as Diamond or Netherite tools and armor are heavily nerfed inside Blue Skies dimensions, dealing significantly less damage and mining much slower. To progress effectively, players must rely entirely on local resources. New tools and armor must be crafted using dimension-specific ores like Ventium, Falsite, and Horizonite, as well as local wood types such as Bluebright and Starlit. Only gear created within the dimensions functions at full efficiency, making exploration and mining mandatory for survival.\n\nProgression is closely tied to dungeon exploration and boss encounters. Each dimension contains two major dungeons, resulting in four primary bosses overall. Dungeon Keys must be collected throughout each structure to unlock access to the boss room. In the Everbright, players face The Summoner in the Blinding Dungeon, who drops the Summoning Tome that enables spellcasting abilities, and the Starlit Crusher in the Nature Dungeon, which rewards the Nature’s Arc that increases maximum health. In the Everdawn, The Alchemist resides in the Blinding Dungeon and drops an Alchemy Scroll granting chemical and fire-based spells, while the Arachnarch rules the Poison Dungeon and drops the Poison Arc, which boosts attack power while the player is poisoned.\n\nBosses are not one-time encounters. Using the Ark item dropped by a boss on the dungeon’s keystone allows the boss to be re-summoned at a higher difficulty for greater challenge and rewards.\n\nSeveral notable materials define late-game progression. Ventium acts as the iron-equivalent ore and appears in both dimensions. Falsite enhances item durability when used in crafting. Horizonite, exclusive to the Everdawn, can be heated to grant fire-based bonuses. High-tier gems such as Diopside and Charoite are used to craft the strongest armor and tools available in the mod.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Blue Skies",
+          "mod_version": "unknown",
+          "category": "dimensions",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "corpse-mod-bettermc-001",
+        "text": "The Corpse mod is widely considered a core quality-of-life mod for modern modpacks, as it prevents item loss on death and removes frustration caused by despawning items, lava, or the void. Instead of dropping items, the mod spawns a Corpse entity modeled after the player at the exact coordinates of death. This corpse never despawns, meaning items can be recovered even after long periods of time. The corpse is fully immune to fire and lava, safely preserving all gear even if death occurs in hazardous environments like Nether lava lakes. The corpse stores the player’s entire inventory, including armor and off-hand items.\n\nRecovering items is designed to be flexible and safe. Players can right-click the corpse to open its inventory and manually retrieve items if their inventory is full, or use a dedicated “Loot All” button to instantly transfer everything back. Once all items are removed, the corpse visually transforms into a skeleton, which can then be right-clicked again to remove it from the world.\n\nA major feature of the mod is the Death History interface, accessible by pressing the U key. This screen lists every recorded death in the world or server, displaying the coordinates, dimension, and timestamp. Players can inspect individual entries to preview the items lost during that death. If cheats or admin permissions are enabled, a teleport option allows instant travel to the corpse’s location.\n\nAdvanced configuration options include corpse expiration timers that control when other players may loot a corpse, skeleton scavenging for bones or decorative skulls, and compatibility with Soulbound enchantments so bound items remain in the player’s inventory. The mod also handles edge cases such as void deaths by relocating corpses to safe coordinates. Unlike grave-style mods that place blocks, Corpse uses an entity-based system, reducing the risk of overwriting world structures.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Corpse",
+          "mod_version": "unknown",
+          "category": "gameplay",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "elytra-slot-bettermc-001",
+        "text": "Elytra Slot is a quality-of-life mod that introduces a dedicated accessory slot specifically for Elytra, allowing players to use flight without sacrificing chest armor. With this system, a player can wear a chestplate and an Elytra at the same time, retaining full Armor and Toughness values from the chestplate while still being able to glide and boost with rockets. The player model can render both the chestplate and wings simultaneously, and client-side configuration options allow the Elytra visuals to be hidden when not flying for a cleaner appearance.\n\nThe mod functions as an addon and requires an accessory API to operate. On Forge or NeoForge, it depends on Curios API and commonly Caelus API, while on Fabric or Quilt it relies on Trinkets API. By default, the Elytra is placed into a dedicated \"Back\" or \"Cape\" slot provided by these APIs.\n\nUsage is straightforward. From the player inventory, clicking the accessory icon near the character portrait opens an additional equipment grid containing slots such as rings, belts, and back items. The Elytra can be dragged into the Back or Cape slot, after which flight mechanics function exactly as they would in vanilla, including mid-air activation and rocket boosting.\n\nEnchantments such as Mending and Unbreaking continue to work normally while the Elytra is equipped in the accessory slot. Configuration options are available through the client config file to control Elytra visibility. Compatibility considerations apply when using other back-slot items, such as backpacks, which may compete for the same slot; additional slots can often be added with admin commands. As an alternative approach, companion mods like Quick Elytra offer hotkey-based chestplate and Elytra swapping for players who prefer a more vanilla-style experience.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Elytra Slot",
+          "mod_version": "unknown",
+          "category": "gameplay",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-xaeros-world-map-2026-001",
+        "text": "Xaero's World Map is a comprehensive and persistent world mapping mod designed to act as a long-term database of player exploration. Unlike basic in-game maps, it records explored terrain permanently and integrates seamlessly with Xaero's Minimap to ensure builds, bases, and points of interest are never lost, even across dimensions. The full-screen world map can be opened with the default M key and features an interface similar to modern web maps. Players can zoom using the mouse wheel for views ranging from block-level detail to continent-scale overviews, and pan freely by clicking and dragging. Waypoints can be created by right-clicking any location on the map, and these waypoints synchronize instantly with Xaero's Minimap when installed. Key features include Footsteps mode, which displays a trail of red X marks to show the player’s recent movement path for easy backtracking, especially useful in complex areas like the Nether. Cave Mode automatically activates underground, presenting a layered view of tunnels, mineshafts, and lava pockets. The mod also supports dimension switching via the UI, allowing players to view maps of the Overworld, Nether, End, and modded dimensions such as Aether or Blue Skies without being physically present. Terrain shading options such as Vanilla, Accurate, and Sloped provide enhanced elevation visualization and improved understanding of terrain height and mountain structures.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Xaero's World Map",
+          "mod_version": "unknown",
+          "category": "mapping",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-xaeros-world-map-2026-002",
+        "text": "Xaero's World Map is designed to work best when paired with Xaero's Minimap, combining large-scale exploration with real-time navigation. The World Map provides shared exploration data used by the minimap’s fair-play mode, ensuring consistency between both tools. When Entity Radar is enabled, mobs appear as dots and players as heads on both the minimap and the full-screen world map, improving situational awareness. Players with cheats or OP permissions can also use the Quick Teleport feature by right-clicking any location on the world map and selecting Teleport to instantly move there. Beyond navigation, the mod supports advanced map exporting for long-term players. By opening the world map screen and using the Export option, users can generate a high-resolution PNG image composed of all explored chunks, preserving months of exploration, though large maps may take time to process and result in very large files. As of early 2026 (version 1.40.4 and above), the mod includes a fully reworked configuration system. Players can create multiple config profiles tailored to different playstyles, such as disabling entity radar for Hardcore Survival while keeping it enabled for Creative Building. Server owners can now enforce specific map settings through server-side profiles, allowing control over features like cave mode. All map and configuration data is now stored under /config/xaero/world-map/, simplifying backups. In special dimensions like the Aether, the world map is especially important, as it clearly shows empty void spaces between floating islands, helping players safely plan bridges or flight paths.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Xaero's World Map",
+          "mod_version": "1.40.4+",
+          "category": "mapping",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-jade-waila-2026-001",
+        "text": "Jade is an essential \"What Am I Looking At\" (WAILA) style HUD mod for 2026 that provides real-time contextual information about blocks and entities directly on screen. It displays a small, unobtrusive overlay at the top of the screen whenever the player points their crosshair at something in the world. This makes Jade especially valuable in complex modded environments such as the Aether or Blue Skies, where identifying unfamiliar plants, ores, machines, or bosses can otherwise be difficult. The HUD shows the exact name of the block or entity, the mod it originates from, and visual breaking progress when mining. It also indicates the effective tool required to harvest a block and whether the currently held tool meets the correct tier. Beyond basic labels, Jade can read deeper tile entity data to provide advanced information. Storage blocks like chests or barrels display a preview of their contents without opening them, while furnaces show remaining fuel burn time and smelting progress. For mobs and bosses, Jade displays current and maximum health using hearts or numerical bars. Crops and plants reveal their growth percentage, helping with efficient farming. When tech mods are installed, Jade can also display energy storage levels for machines using FE or RF systems. The mod is highly customizable through keybinds, allowing players to open the configuration menu, toggle the HUD on or off, and control whether liquid information is displayed for tanks or water-logged blocks, making it adaptable to different UI preferences and playstyles.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Jade",
+          "mod_version": "unknown",
+          "category": "utility",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-boatload-vanilla-plus-2026-001",
+        "text": "Boatload by TeamAbnormals is a Vanilla+ utility mod focused on improving water travel without introducing complex physics or large-scale ships. Rather than adding massive moving vessels like other naval mods, Boatload enhances the standard Minecraft boat with several practical variants designed for everyday gameplay. All new boats can be crafted using any wood type and integrate naturally into vanilla mechanics. Large Boats expand transport capacity by allowing up to four small entities such as players or animals, or two large entities like horses, cows, or iron golems, making them ideal for livestock transport or group exploration, though they turn slightly slower than standard boats. Furnace Boats introduce powered travel by consuming coal or charcoal as fuel; once activated, they move significantly faster than rowed boats and continue forward automatically without requiring constant input, making long-distance water travel more convenient. Chest Boats provide onboard storage functionality, and while similar boats exist in modern vanilla versions, the Boatload implementation is often preferred in 2026 modpacks due to better compatibility and integration with other TeamAbnormals mods such as Upgrade Aquatic. Banner Boats offer a purely cosmetic enhancement, allowing players to attach custom banners to boats for visual identification, fleet organization, or territorial marking in multiplayer environments. Overall, Boatload preserves the simplicity of vanilla boats while adding meaningful utility, quality-of-life improvements, and light customization options suitable for survival and multiplayer play.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Boatload",
+          "mod_version": "unknown",
+          "category": "transportation",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-boatload-vanilla-plus-2026-002",
+        "text": "Boatload by TeamAbnormals is a Vanilla+ focused mod that enhances Minecraft’s standard boats with practical utility variants for improved water travel. Instead of adding complex, physics-based ships, it expands the existing boat system in a way that feels natural to vanilla gameplay. The mod introduces several specialized boat types craftable from any wood. Large Boats significantly increase transport capacity, holding up to four small entities such as players or animals, or two large entities like horses, cows, or iron golems. While they turn slightly slower than normal boats, they are ideal for moving livestock or traveling with a group. Furnace Boats add powered movement by consuming coal or charcoal as fuel; once fueled, they move faster than rowed boats and continue traveling forward automatically without constant input. Chest Boats provide onboard storage, and although similar boats exist in later vanilla versions, the Boatload implementation is commonly preferred in 2026 modpacks due to smoother integration with other Abnormals mods. Banner Boats are a cosmetic option that allows banners to be attached for visual identification, fleet organization, or territory marking in multiplayer. Boatload also refines technical mechanics: furnace boats can be fueled while seated by right-clicking the furnace section, large mobs automatically occupy two slots when led into the water, and standard dismount controls apply, with mobs exiting onto nearby land if the boat is full. The mod integrates tightly with the Abnormals ecosystem, adding unique boat variants for custom wood types introduced by mods like Upgrade Aquatic, Environmental, and Atmospheric.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Boatload",
+          "mod_version": "unknown",
+          "category": "transportation",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-villager-names-2026-001",
+        "text": "Villager Names is a lightweight quality-of-life mod that enhances immersion by giving every villager a unique, visible name instead of generic profession-only labels. Upon spawning or being generated in villages, villagers are automatically assigned randomized names drawn from configurable name pools, making them feel more like individuals rather than interchangeable NPCs. This is especially useful in large or long-term worlds where players interact with many villagers for trading, breeding, or roleplay. Named villagers are easier to recognize, remember, and organize, reducing confusion when managing trading halls or transporting villagers between locations. The mod integrates seamlessly with vanilla mechanics and other mods, displaying names above villagers in the world and in relevant UI elements without adding intrusive HUD elements. Names persist across sessions and remain consistent even if a villager changes profession, levels up, or is transported to another location or dimension. The system is designed to be performance-friendly and does not alter villager AI, trading behavior, or balance. Configuration options allow players or modpack creators to customize name lists, enable or disable naming under certain conditions, and adjust how names are displayed. Villager Names fits naturally into Vanilla+ modpacks, adding personality and clarity to villager-based gameplay while remaining unobtrusive and compatible with survival, multiplayer, and roleplay-focused worlds.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Villager Names",
+          "mod_version": "unknown",
+          "category": "quality_of_life",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-fallingtree-forestry-2026-001",
+        "text": "FallingTree is a lightweight and efficient forestry utility mod designed to remove the repetitive task of chopping trees block-by-block. It is especially well-suited for large modded environments such as the Aether or Blue Skies, where forests are massive and wood types are abundant. Unlike older, heavier solutions such as Treecapitator, FallingTree focuses on configurable realism and player control. The mod offers two main operation modes: Instant Break, where breaking the bottom log with an axe causes the entire tree—including logs and leaves—to instantly collapse into item drops, and Physics Mode, where the tree falls over as a solid entity before converting into drops on the ground. By default, the mod only activates when an axe is used, preserving vanilla behavior when punching logs and preventing accidental large-scale destruction during building. FallingTree also provides dynamic controls to give players situational flexibility. Holding Shift while mining disables the mod for that specific block, allowing precise edits, while an optional configuration setting can invert the logic so trees only fall when sneaking. Tree size affects break speed, meaning larger trees like 2x2 spruce take longer to fell than small oaks. Customization is handled through a robust fallingtree.json configuration file, allowing control over maximum tree size detection, axe durability loss behavior, and instant leaf decay to avoid floating leaves. Modern versions are highly accurate at distinguishing natural trees from player-built wooden structures, making FallingTree a balanced, reliable, and immersive Vanilla+ solution for wood gathering.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "FallingTree",
+          "mod_version": "unknown",
+          "category": "utility",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-backpacked-3-2026-001",
+        "text": "Backpacked by MrCrayfish is a polished, vanilla-friendly backpack mod built around progression and modular utility rather than instant large storage. Instead of granting many slots upfront, the mod encourages players to grow their backpack through gameplay using experience and challenges. As of Backpacked 3.0+, players begin by crafting a basic backpack with leather and string. Additional storage is unlocked directly from the backpack GUI by spending experience levels, allowing gradual expansion of inventory space. Players can also unlock augment bays, with up to three available, which are used to install special utility modules. Beyond standard progression, certain cosmetic backpacks, such as Wandering Trader or End Crystal variants, are unlocked through hidden in-game challenges or by interacting with specific NPCs, reinforcing exploration and experimentation. Backpacked replaces traditional enchantments with an Augment system, where augments act as swappable functional upgrades. Funnelling automatically routes picked-up items into the backpack, reducing inventory clutter. Recall ensures the backpack and its contents return safely to a Backpack Shelf upon player death. Immortal allows a Totem of Undying stored in the backpack to activate automatically. Quiverlink enables bows and crossbows to draw arrows or fireworks directly from backpack storage. Lightweaver automatically places torches when light levels are low, improving cave exploration, while Hopper Bridge allows hoppers to insert or extract items from a worn backpack. Overall, Backpacked integrates storage, survival mechanics, and progression into a balanced Vanilla+ experience suitable for long-term survival and modpacks like BetterMC.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Backpacked",
+          "mod_version": "3.0+",
+          "category": "storage",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-backpacked-3-2026-002",
+        "text": "Backpacked by MrCrayfish extends its progression-based storage system with deep interaction mechanics, customization, and strong mod compatibility. Players can open their backpack at any time using the default B key, even when the backpack is equipped in an accessory slot such as Curios or Trinkets. A unique interaction feature allows pickpocketing: by standing directly behind another player and right-clicking, you can access their backpack, though this behavior can be disabled via server configuration for multiplayer safety. The Backpack Shelf is a dedicated decorative storage block that allows players to display their backpack by Shift + Right-Clicking it onto the shelf. When placed, the shelf functions like a chest, enabling hopper interaction with the backpack’s contents while it is not being worn. Backpacked is also known for its high-quality 3D models and extensive cosmetic customization. Backpacks can be dyed any color using standard Minecraft dyes, and unlocked visual models can be selected through the Customize menu in the GUI, ranging from themed designs like Piglin or End-inspired packs. As of 2026, the mod supports community-created cosmetic JSON packs, allowing new backpack models to be added without coding. From a technical standpoint, Backpacked is fully compatible with Curios and Trinkets, with the Back slot recommended to preserve armor or Elytra usage. It also integrates cleanly with corpse mods: if the Recall augment is installed, the backpack safely returns to its shelf upon death; otherwise, it remains on the player’s corpse. While it can coexist with Sophisticated Backpacks, Backpacked focuses on a more Vanilla+ experience rather than tech-heavy storage systems.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Backpacked",
+          "mod_version": "3.0+",
+          "category": "storage",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-guard-villagers-2026-001",
+        "text": "Guard Villagers is a defensive utility mod that turns vulnerable Minecraft villages into fortified settlements protected by an organized standing army. Instead of remaining passive targets, villages now naturally spawn with guards that actively patrol and defend against hostile mobs. By default, each village generates with approximately six Guards who roam the perimeter and respond to threats, dramatically improving village survivability during raids or nightly attacks. Players can further strengthen defenses by recruiting additional guards directly from the local population. Unemployed villagers or Nitwits can be drafted into service by Shift + Right-Clicking them while holding a sword or crossbow, causing them to immediately equip the weapon and convert into a Guard. Village reputation plays an important role in guard behavior: players with negative reputation from harming villagers will be treated as hostile and attacked on sight, with guards maintaining aggression even after player death. Once the player earns the Hero of the Village effect, more advanced command options become available. Guards can be instructed to follow the player or remain stationed in a specific location, allowing for mobile defense or static protection. Patrol points can be assigned, with melee guards roaming the area and ranged guards acting as stationary defenders. Players with Hero of the Village can also access a guard’s inventory, equipping them with armor of any tier, shields for blocking, or consumables such as food and potions, which guards will automatically use when injured. Overall, Guard Villagers adds strategic depth, immersion, and reliability to village defense without straying from a Vanilla+ gameplay style.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Guard Villagers",
+          "mod_version": "unknown",
+          "category": "utility",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-guard-villagers-2026-002",
+        "text": "Guard Villagers significantly expands village combat depth by enhancing villager and raid AI beyond simply adding guards. Existing professions are given new, active combat-related roles that influence how villages survive large-scale threats. Clerics now act as support units by throwing Potions of Regeneration at injured guards, players, and iron golems during combat, improving sustain in prolonged fights. Toolsmiths gain a defensive utility role by actively repairing damaged Iron Golems using iron ingots, increasing their longevity during raids. Enemy behavior is also adjusted: Witches are more aggressive and now directly target villagers and guards, making them far more dangerous during raids, while Illusioners—normally unused vanilla mobs—are fully integrated into raids as high-difficulty spellcasters that increase overall challenge. The mod further improves tactical combat behavior through smarter AI. Guards naturally form effective formations, with shield-bearing melee guards taking the front line while crossbow guards remain behind to provide ranged support. Crossbow guards also gain a situational kick attack that knocks back enemies who get too close, though this action is unavailable while actively blocking with a shield. An additional behavioral mechanic introduces fear responses: both Villagers and Illagers are terrified of Polar Bears, allowing players to strategically manipulate crowd movement or enemy positioning using these mobs. Together, these AI upgrades and tactical mechanics turn village defense into a more dynamic, strategic, and engaging experience while maintaining a Vanilla+ balance.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Guard Villagers",
+          "mod_version": "unknown",
+          "category": "utility",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-farmers-delight-2026-001",
+        "text": "Farmer’s Delight expands Minecraft’s food system by introducing new crops, manual food preparation tools, and immersive cooking mechanics that fit naturally into survival gameplay. The mod adds four core crops that generate naturally in the world, encouraging exploration and biome-specific farming. Cabbage grows on beaches and can be eaten raw or processed into leaves. Onions are found in temperate biomes such as forests and plains and are harvested similarly to potatoes. Tomatoes generate in hot biomes like savannahs and deserts; they grow vertically on ropes and can reach up to three blocks in height. Rice appears in swamps and jungles, growing in shallow water up to two blocks deep, and is harvested as a rice panicle that must be processed into usable grains. Farmer’s Delight emphasizes hands-on preparation over instant furnace cooking by introducing essential tools and workstations. The Knife is the most important tool, functioning as both a fast weapon and a utility item. Using a knife guarantees secondary drops when killing animals, provides a chance to obtain ham, and allows players to harvest straw from grass or wheat for crafting ropes, canvas, and compost. The knife also supports a unique Backstabbing enchantment that deals high damage when attacking mobs from behind. The Cutting Board is a GUI-less workstation where items are placed directly on the block and processed using tools. It enables slicing food items such as fish or pumpkins and salvaging materials, such as stripping bark from logs or reclaiming leather from armor. For advanced meals, players use the Cooking Pot placed on a Stove, campfire, or magma block. The cooking interface supports multiple ingredients and containers, producing meals that often grant the Nourishing effect, temporarily halting hunger depletion and rewarding thoughtful food preparation.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Farmer's Delight",
+          "mod_version": "unknown",
+          "category": "farming",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-supplementaries-2026-001",
+        "text": "Supplementaries is a versatile utility and redstone-focused mod that adds a wide range of functional blocks designed to solve common survival and automation problems in a compact, Vanilla+ way. The mod introduces several practical utility blocks that expand storage, interaction, and base design options. Jars can store up to twelve items, a full bucket of liquid, or even small entities like fireflies or slimes. Faucets can be attached to containers such as chests, jars, or cauldrons to automatically drain items or liquids into a container placed below. Safes act as personal, owner-locked storage blocks that can only be opened by the owner or someone with a key and are fully immune to explosions. Sacks function similarly to shulker boxes by retaining their contents when broken, though with fewer slots for balance. Notice Boards allow players to publicly display maps or books and quills for others to read without opening a GUI, making them ideal for towns or servers. Planters enable crops and plants to grow without water, making them especially useful for Nether or decorative farming setups. Supplementaries is also popular among redstone engineers due to its compact automation tools. Cog Blocks allow redstone signals to be transmitted vertically along walls, saving space in builds. Spring Launchers propel players, mobs, or entities in a set direction when powered. Turn Tables rotate the block placed on top of them, enabling rotating displays or functional contraptions. Speakers broadcast custom text messages to players within a defined radius when powered, making them useful for alerts and server messaging. Together, these blocks provide powerful utility while remaining intuitive and highly compatible with survival gameplay.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Supplementaries",
+          "mod_version": "unknown",
+          "category": "utility",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "rag-supplementaries-2026-002",
+        "text": "Supplementaries further expands exploration, travel, and base aesthetics by introducing a set of unique gadgets and decorative display blocks that enhance both functionality and immersion. For world exploration, especially in vertical or exotic dimensions like the Aether or Blue Skies, the mod adds several practical tools. The Slingshot allows players to launch block items as projectiles, enabling creative solutions such as firing torches onto high cave ceilings for lighting or launching TNT from a safe distance. The Flute can be bound to tamed pets like dogs or cats; playing it instantly teleports all non-sitting pets to the player, preventing them from getting lost during long journeys. Wayplanners and Signposts generate naturally in the world and point toward nearby villages or structures, acting as navigation aids, while crafted versions can be placed by players to mark bases or points of interest. The Globe is a decorative yet immersive block that displays a miniature representation of the world’s actual landmasses, reinforcing exploration progress. Supplementaries also excels in aesthetic and display-focused features for builds and bases. Statues can be posed and equipped with items for decoration, and with the Supplementaries Squared add-on, players can even create custom statues of themselves. Item Shelves provide a three-dimensional display for single items, making them ideal for showcasing rare finds such as Aether ores. Pedestals display items as well, and placing an End Crystal on one will actively power a nearby enchanting table. Flags add visual flair by waving horizontally in the wind, offering a more dynamic alternative to traditional banners.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Supplementaries",
+          "mod_version": "unknown",
+          "category": "utility",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-betterend-001",
+        "text": "The Alien Biomes mod replaces the monotonous End Barrens with more than 24 unique and atmospheric biomes, transforming the End into a diverse and dangerous dimension. Notable biomes include Blossoming Spires, a mountainous landscape with floating islands, pink Tenanea trees, and falling petals; Foggy Mushroomland, a blue-tinted swamp featuring giant glowing mushrooms, lakes, and Cubozoa jellyfish; Crystal Mountains, barren yet visually striking peaks covered in massive glowing Aurora Crystals; Shadow Forest, a hostile low-visibility biome with black-leafed trees where Shadow Walkers roam and inflict blindness on contact; and Amber Land, a rare biome that is the only source of Amber Ore, which is required for advanced crafting and progression. In addition to biome variety, the mod introduces a structured, tiered material progression system that players must follow to access powerful equipment. Thallasium is the foundational End metal, comparable to Iron+, commonly found across many biomes and used for basic End-tier machines. Terminite represents the next tier, comparable to Diamond+, and is crafted in an End Stone Smelter using End Dust combined with Thallasium or Iron. The final and most powerful tier is Aeternium, equivalent to Netherite+, crafted by alloying Terminite with Netherite in the Smelter. Amber serves as a utility material found exclusively in Amber Lands and is used primarily for Infusion Rituals and specialized lighting rather than direct gear progression.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "BetterEnd",
+          "mod_version": "unknown",
+          "category": "worldgen",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-betterend-002",
+        "text": "The Infusion Ritual is BetterEnd’s unique enchanting and upgrading system, required to craft the most powerful items such as Crystalite Armor and Aeternium gear. Unlike standard progression, these items cannot be created using a normal Crafting Table. The ritual setup requires placing an Infusion Pedestal at the center, surrounded by eight smaller pedestals arranged in a circular pattern. To perform a ritual, the base item is placed on the central pedestal, while the required ingredients are positioned on the surrounding pedestals according to the recipe. Activation is direction-sensitive: players must face the correct orientation specified by the recipe, often requiring certain ingredients to align with cardinal directions such as North or South. A compass or the F3 debug menu can be used to ensure proper alignment. Once correctly positioned, right-clicking the central pedestal initiates the ritual, triggering lightning effects and swirling particles as the ingredients are consumed and the upgraded item is forged. Beyond progression systems, the mod expands End flora, fauna, and food mechanics. Cubozoa and End Fish inhabit certain biomes and can be collected in buckets. When cooked, they grant unique buffs, such as Night Vision obtained from Shadow Berry Jelly. Chorus plants are significantly expanded, introducing multiple variants that can be processed into materials like Chorus Glass and Chorus Steel. Additionally, Silk Moths can be found in Blossoming Spires; their nests can be sheared to obtain Silk Fiber, a crafting material used to create high-durability capes and wings.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "BetterEnd",
+          "mod_version": "unknown",
+          "category": "gameplay",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-vanilla-backport-001",
+        "text": "Vanilla Backport, formerly known through separate components such as Caves & Cliffs Backport and The Wild Backport, is a comprehensive mod designed for players who want modern Minecraft features while remaining on stable, mod-friendly versions like 1.20.1. By early 2026, the mod has evolved into a universal backport that accurately integrates content from multiple major Minecraft updates, including 1.20, 1.21, and early 2025–2026 feature drops, into older versions with near-perfect fidelity. The mod is structured around configurable Modules, allowing players to enable or disable content to closely match their preferred target version. The Chase the Skies module, based on Minecraft 1.21.x, introduces the Breeze mob, Wind Charges, and Trial Chambers. Spring to Life, based on 1.21 and 2025 updates, adds the Pale Garden biome, the Creaking mob, and Pale Oak wood. Bundles of Bravery backports fully functional, dyeable Bundles with a modern user interface. Armored Paws, based on version 1.20.5, includes Armadillos, Wolf Armor, and eight new Wolf variants. Bats & Pots enhances 1.20.x content with updated Bat models and Decorative Pots that support item storage. Beyond major features, Vanilla Backport significantly improves ambience and world generation by adding modern environmental details. These include leaf litter that generates as small 3D decorations beneath trees, fallen logs that naturally appear on forest floors and may host mushrooms, high-density wildflower patches using modern noise-based generation, falling leaf particle effects applied to all trees, and updated desert ambient sounds featuring wind and sand-shift audio cues.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Vanilla Backport",
+          "mod_version": "unknown",
+          "category": "backport",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-vanilla-backport-002",
+        "text": "Vanilla Backport places strong emphasis on specialized mob mechanics, with AI behavior carefully recreated to match modern Minecraft accuracy rather than just visual similarity. Happy Ghasts are a unique backported variant originating from experimental or spin-off versions, and unlike standard Ghasts, they can be leashed and even ridden, introducing new interaction possibilities. Armadillos feature accurate defensive logic: they roll into a protective state when sensing danger or vibrations, and Spiders actively avoid them, preserving intended mob relationships. Wolf spawning is biome-aware, with the mod automatically checking biome tags to ensure the correct wolf variant—such as Woods, Ashen, or Black—appears even in heavily modded environments. The Creaking mob includes its defining Heart mechanic, requiring players to locate and destroy the Creaking Heart in the Pale Garden to prevent the mob from continuously stalking them. On the technical side, the mod introduces a highly modular configuration system designed to reduce performance impact from large-scale backporting. Namespace and tag support allows features to integrate seamlessly with other mods by relying on modern tags like #minecraft:allows_leaf_litter, ensuring compatibility with dimensions and biomes from mods such as Aether or Blue Skies. Performance-sensitive features, including Falling Leaves, are fully client-side and do not affect server performance. The mod also adds custom music, featuring background tracks composed by Amos Roddy and modern vanilla music discs such as Precipice and Creator that were originally introduced in Minecraft 1.21.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Vanilla Backport",
+          "mod_version": "unknown",
+          "category": "gameplay",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-alexs-mobs-001",
+        "text": "Alex's Mobs is a large-scale ecological expansion that adds over 90 creatures to Minecraft, ranging from real-world animals to fantastical and legendary beings, each designed with unique behaviors, drops, and progression value. Central to the mod is the Animal Dictionary, a progression-based in-game encyclopedia that players usually spawn with, or can craft using a Book and any Green Leaf (or dirt/grass in some versions). The dictionary functions as a live wiki, automatically unlocking entries for every creature you encounter, and includes a search feature to quickly locate information such as taming methods, mob behavior, and item drops. The mod significantly enriches the Overworld with notable creatures that provide both utility and challenge. Grizzly Bears are neutral mobs that can be tamed with Honeycomb, ridden, and will defend their owner in combat. Raccoons behave as passive thieves, stealing food from chests, but can be tamed with Eggs to perch on your shoulder. Crows can be trained using Pumpkin Seeds to collect specific items and deposit them into chests, effectively enabling basic item sorting. Elephants are neutral mobs that can be tamed with Acacia Leaves or Wheat and equipped with chests for massive mobile storage. Tigers are hostile by default but can be tamed using Raw Porkchops or Steak, gaining the ability to turn invisible to ambush enemies. Beyond wildlife, Alex’s Mobs introduces legendary fantasy creatures that act as mid-to-late game encounters. The Void Worm is the mod’s primary boss, summoned in the End by throwing a Mysterious Worm into the void, and drops Void Worm Mandibles used to craft the Dimensional Carver, a teleportation tool. Warped Moscos are created by mutating a Crimson Mosquito with a Mungus Spore and drop Warped Muscle. Farseers spawn near world edges or in the End, manipulate time and space, and drop Farseer Arms that allow extended block reach.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Alex's Mobs",
+          "mod_version": "unknown",
+          "category": "mobs",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-alexs-mobs-002",
+        "text": "Alex's Mobs is a comprehensive ecosystem expansion that adds over 90 creatures to Minecraft, spanning real-world animals and fantastical beasts, each with distinct behaviors, mechanics, and drops that support long-term progression. At the core of the mod is the Animal Dictionary, an in-game reference book that players usually spawn with or can craft using a Book and any Green Leaf (or dirt/grass in some versions). The dictionary functions as a live wiki, automatically unlocking detailed entries for every creature the player encounters, and includes a search function for quickly finding information on taming methods, mob behavior, and drops. The Overworld is populated with notable creatures that provide both utility and interaction. Grizzly Bears are neutral mobs that can be tamed with Honeycomb, ridden, and will defend the player in combat. Raccoons act as passive thieves, stealing food from chests, but can be tamed with Eggs to sit on the player’s shoulder. Crows can be trained with Pumpkin Seeds to collect specific items and deposit them into chests, enabling simple item-sorting automation. Elephants are neutral mobs that can be tamed using Acacia Leaves or Wheat and equipped with chests for massive mobile storage. Tigers are hostile by default but can be tamed with Raw Porkchops or Steak, gaining the ability to turn invisible to ambush enemies. Beyond wildlife, the mod introduces legendary fantasy and boss mobs designed for mid-to-late game progression. The Void Worm is the primary boss, summoned in the End by throwing a Mysterious Worm into the void, and drops Void Worm Mandibles used to craft the Dimensional Carver, a teleportation tool. Warped Moscos are created by mutating a Crimson Mosquito with a Mungus Spore and drop Warped Muscle. Farseers spawn near world borders or in the End, manipulate time and space, and drop Farseer Arms that greatly extend block reach. The mod also includes unique utility items such as the Falconry Glove for commanding birds to hunt, the Stink Ray that repels mobs, the Shield of the Deep for underwater mobility and oxygen, and the Transmutation Table, a late-game block that converts sacrificed items into others.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Alex's Mobs",
+          "mod_version": "unknown",
+          "category": "mobs",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-vein-mining-001",
+        "text": "By 2026, the vein mining ecosystem has largely consolidated around two dominant solutions: FTB Ultimine and Vein Mining by TheIllusiveC4. Each targets a different playstyle, with one focusing on flexible utility and the other emphasizing vanilla-style progression. FTB Ultimine is widely considered the universal choice for modern modpacks due to its powerful shape-based mining system and clear visual feedback. Vein mining is activated by holding a configurable key, commonly the tilde (~), while breaking blocks. A defining feature of FTB Ultimine is its Mining Shapes system, which allows players to cycle modes using Shift plus the mouse wheel while holding the activation key. The Standard mode mines connected blocks of the same type, while Small and Large Tunnel modes instantly dig 1x2 or 3x3 corridors. The Mining Staircase mode automatically creates stairways upward or downward, making vertical traversal efficient. To prevent accidental damage, the mod renders a white outline around all blocks that will be mined before activation. For balance, Ultimine consumes hunger at a much higher rate than normal mining. Vein Mining by TheIllusiveC4 takes a more Vanilla+ approach by integrating vein mining into Minecraft’s enchantment system. It adds a Vein Mining enchantment with three levels, and the feature only works when the tool is enchanted. Lower levels mine small clusters, while higher levels, such as Level III, can clear large ore veins in one action. The mod is highly configurable, allowing players to modify the veinmining-common.toml file to enable sneak-to-activate behavior instead of requiring the enchantment, making it adaptable for both early-game utility and progression-focused gameplay.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Vein Mining / FTB Ultimine",
+          "mod_version": "unknown",
+          "category": "utility",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-when-dungeons-arise-001",
+        "text": "When Dungeons Arise is a large-scale structure generation mod created by Aureljz that dramatically expands Minecraft’s world with imposing, highly detailed, and often dangerous dungeons. The mod is designed to make exploration feel epic by introducing structures that far exceed vanilla builds in both size and complexity, ranging from sky-high airships to vast underground complexes. Unlike standard vanilla structures such as Pillager Outposts or Strongholds, dungeons generated by this mod are massive in scale and designed as full exploration challenges rather than quick loot stops. Most structures are hostile environments, densely packed with mob spawners and enemies equipped with custom gear, forcing players to prepare properly before engaging. Loot progression is a key focus: structures use custom loot tables that frequently reward players with high-tier enchantments and rare resources such as Diamonds and Netherite, making dungeon raiding a viable alternative progression path. A major technical advantage of When Dungeons Arise is its server-side compatibility. The mod can be installed entirely on the server, allowing players without the mod on their client to still join and play, although installing it client-side is recommended for smoother performance and proper rendering. The mod introduces dozens of unique structures that are typically categorized by their generation height, encouraging exploration across the entire verticality of the Minecraft world, from the depths below to the skies above.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "When Dungeons Arise",
+          "mod_version": "unknown",
+          "category": "worldgen",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-void-totem-001",
+        "text": "Void Totem is an essential utility mod created by Affehund that prevents one of the most punishing failures in Hardcore or long-term survival worlds: falling into the void, especially in The End. In vanilla gameplay, a standard Totem of Undying can negate lethal damage but usually fails against the continuous damage of void falling. Void Totem resolves this by introducing the Totem of Void Undying, a specialized safety mechanic designed specifically for void scenarios. When a player falls into the void, typically below Y=0 in the Overworld or beneath the main island level in The End, the totem automatically activates. Upon activation, the player is instantly teleported back to a safe surface location, either the nearest solid ground or a predefined safe height, and is granted brief survival buffs such as Regeneration and Resistance to ensure they survive the transition. Unlike vanilla Totems of Undying, which are dropped by Evokers, the Void Totem is primarily obtained through crafting, making it especially valuable for Skyblock-style gameplay and End-focused progression. In post-v2.0.0 versions, the standard crafting recipe requires one Totem of Undying at the center, along with Chorus Fruit, Eyes of Ender, and Lapis Lazuli, which gives the totem its distinctive blue void-themed appearance. Older versions used Emeralds instead of Lapis Lazuli, and players are advised to check JEI if the recipe differs. For usage, the Void Totem must normally be held in the main hand or off-hand to activate. If Curios API is installed, it can instead be equipped in a dedicated Totem or Charm slot, freeing the player’s hands. Some configurations also allow the totem to function directly from the inventory, though this option is usually disabled by default.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Void Totem",
+          "mod_version": "unknown",
+          "category": "utility",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-chipped-001",
+        "text": "Chipped is a large-scale aesthetic building mod created by Grimm that dramatically expands Minecraft’s block variety without introducing many entirely new materials. Instead, it focuses on transforming existing blocks such as stone, wood, glass, and metals into hundreds of visually distinct variants, making it a staple mod for creative builders and detailed survival bases. Rather than overloading the standard crafting table or creative inventory, Chipped introduces a system of seven specialized crafting stations, each dedicated to specific block families. By placing a vanilla block into the appropriate workstation, players can browse and convert it into all available variants of that block type. The Botanist’s Workbench handles leaves, flowers, vines, and grass, while the Glassblower’s Workbench is used for all glass blocks and panes. The Carpentry Table focuses on wood-based blocks including planks and logs, and the Mason’s Table covers stone materials such as stone, andesite, granite, diorite, and deepslate. Wool, carpets, and banners are processed through the Loom, light-emitting blocks like glowstone, sea lanterns, and redstone lamps use the Alchemy Bench, and metal and high-tier blocks such as iron, gold, diamond, and netherite are handled by the Mechanist’s Workbench. One of the mod’s defining strengths is sheer variety, with some single blocks offering over one hundred unique textures, ranging from rustic and industrial designs to sleek, futuristic panels. Many glass and stone variants support connected textures when compatible mods like Continuity or Oculus/Rubidium are installed. Chipped also leverages Minecraft’s tag system, allowing blocks from other mods, such as Biomes O’ Plenty, to integrate automatically. In most versions, converting blocks is a free one-to-one exchange, making Chipped highly survival-friendly.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Chipped",
+          "mod_version": "unknown",
+          "category": "building",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-diagonal-fences-001",
+        "text": "Diagonal Fences is a lightweight quality-of-life and building mod that addresses a long-standing limitation in vanilla Minecraft: the inability for fences and similar blocks to connect diagonally. Instead of adding new blocks or complex mechanics, the mod subtly extends existing fence, wall, and pane behavior so they can form clean diagonal connections between blocks. This allows builders to create smoother paths, rounded enclosures, angled bridges, and more natural-looking structures without relying on awkward workarounds or excessive block spam. The mod is designed to feel completely Vanilla+, meaning diagonal connections only appear when two compatible blocks are placed diagonally adjacent, preserving standard straight connections elsewhere. It supports a wide range of fence-like blocks, including wooden fences, nether brick fences, walls, iron bars, and glass panes, depending on version and loader. Because it operates on block connection logic rather than adding decorative variants, it integrates seamlessly with both survival and creative play. Diagonal Fences is highly compatible with other building and world-generation mods, as it respects Minecraft’s block tag system and applies diagonal logic consistently to modded fences and walls when possible. The mod is purely visual and structural, does not affect redstone or mob pathfinding in unintended ways, and has negligible performance impact. Its simplicity makes it especially popular in large modpacks like BetterMC, where it quietly improves build aesthetics across the entire world without requiring player configuration or new crafting recipes.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Diagonal Fences",
+          "mod_version": "unknown",
+          "category": "building",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-simple-storage-network-001",
+        "text": "Simple Storage Network (SSN) is a highly popular early-to-mid-game storage mod that provides centralized item access, searching, and crafting without the complexity or power requirements of late-game systems like Applied Energistics 2 or Refined Storage. Instead of replacing your storage, SSN wraps around existing chests and barrels, turning a scattered storage room into a single unified interface. The system requires no RF/FE, no channels, and no micro-crafting, making it ideal for survival-focused modpacks. A functional network is built from four core components. The Storage Network Root acts as the brain of the system, with all cables ultimately connecting back to it, and only one root is required per network. The Storage Inventory Block serves as the primary user interface; right-clicking it opens a searchable view of every item stored in connected inventories. The Storage Crafting Table is an upgraded interface that adds a full 3x3 crafting grid, allowing recipes to be crafted directly using items pulled from the network. Storage Cables form the backbone of the system, transmitting item data between blocks, while specialized variants such as Storage Link Cables are required to directly connect chests or barrels. Setting up a network follows a simple, linear process. First, place the Storage Network Root in a central location. Next, connect your existing chests or barrels using Storage Link Cables attached to their sides or backs, as standard cables alone cannot access inventory contents. Finally, attach either a Storage Inventory Block or a Storage Crafting Table anywhere along the cable line. Once connected, interacting with the interface provides instant access to all linked storage in a single searchable window.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Simple Storage Network",
+          "mod_version": "unknown",
+          "category": "storage",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-simple-storage-network-002",
+        "text": "Beyond basic centralized storage, Simple Storage Network (SSN) supports lightweight automation through a set of specialized cables that extend the system’s functionality without introducing power or complex logic. The Storage Link Cable is the foundational connection cable, used to attach chests or barrels to the network so their contents can be viewed and accessed. For automation, the Storage Import Cable automatically pulls items out of connected containers such as furnaces, mob farm outputs, or processing blocks and inserts them directly into the storage network. In contrast, the Storage Export Cable pushes items from the network into a target container, making it useful for tasks like supplying furnaces with fuel or feeding machines with specific resources. Both Import and Export Cables have filtered variants that allow players to whitelist or blacklist items, giving precise control over what is moved and preventing unwanted item flow. In addition to cable-based automation, SSN offers powerful wireless access options through Storage Remotes. A standard Storage Remote allows players to open and interact with their storage network from a distance, typically within a 64-block radius of the Storage Network Root. The Advanced Storage Remote expands this functionality by including a built-in crafting grid, enabling full remote crafting without returning to the base. To further extend usability, Network Wireless Transmitters can be placed on storage cables to increase the effective range of storage remotes, allowing players to access their entire storage system from far away locations such as mines, farms, or satellite bases. Together, these features make SSN a flexible yet simple automation and access solution for early-to-mid-game progression.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Simple Storage Network",
+          "mod_version": "unknown",
+          "category": "storage",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-stalwart-dungeons-001",
+        "text": "Stalwart Dungeons is an adventure-focused mod created by Furti_Two that significantly increases the end-game challenge of both the Nether and the End. Rather than emphasizing massive structures, the mod centers on unique boss mechanics, high-tier materials, and dangerous custom mob variants designed for late-game players. It introduces three primary dungeon structures, each tied to a specific boss encounter that must be deliberately summoned. These bosses are activated by using a Nether Star on an altar located inside their respective structures, reinforcing intentional progression rather than random discovery. The Awful Dungeon generates in Soul Sand Valleys or Warped Forests and houses the Awful Ghast, which drops items such as the Awful Gun and Awful Crystals. The Keeping Castle appears in Nether Wastes or Crimson Forests and contains the Nether Keeper boss, rewarding players with Ancient Fire and Spore-related components. In the End, The Shelter generates in the End Void or End Midlands and is home to The Shelterer, which drops valuable Void Crystals. Beyond dungeon encounters, Stalwart Dungeons introduces advanced equipment centered around Tungsten and a new weapon class called Hammers. Tungsten Ore is found exclusively within Nether dungeons and can be crafted into armor and tools that surpass Netherite in strength but trade off durability. A defining trait of Tungsten armor is complete immunity to Wither and Burn effects, making it especially valuable in high-risk environments. Hammers are heavy, high-damage weapons with unique mechanics; performing a sneak attack with a Hammer summons a lightning strike on the target, which can be further enhanced through enchantments. A special Nether Hammer variant also exists, automatically smelting ores as they are mined, further reinforcing the mod’s late-game utility focus.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Stalwart Dungeons",
+          "mod_version": "unknown",
+          "category": "adventure",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-stalwart-dungeons-002",
+        "text": "Stalwart Dungeons expands its late-game focus with a set of unique blocks and mechanics designed for advanced defense, automation, and mobility, especially within hostile Nether environments. Pusher Blocks automatically push entities such as mobs or dropped items that stand on them, making them an effective replacement for water-based transport systems, which are impractical in the Nether. Transient Blocks function as timed doors or passages; when activated by redstone or manual interaction, they temporarily disappear and then reappear after a short delay, enabling creative traps, hidden entrances, and dynamic dungeon defenses. The Spore Vaporizer introduces a biological control mechanic by emitting a spore cloud that infects nearby mobs. These spores can be captured in bottles and reused as splash items, allowing players to immobilize mobs by encasing them in Nether Wart Cocoons. Teleporter Blocks provide instant travel options once crafted using Void Crystals. By linking two teleporters with a Teleporter Core, players can move instantly between distant locations by sneaking on the block, enabling fast traversal across dangerous dimensions. The mod also includes several important integration considerations. Boss encounters require a Nether Star to activate dungeon altars, meaning players must prepare thoroughly before attempting these fights. Hostile mob variants add further challenge, such as Reinforced Blazes that wear basalt armor, granting them extreme resistance to physical damage at the cost of slower movement. For players using the Curios API, many Stalwart Dungeons artifacts and shields, including items like the Warted Tungsten Shield, can be equipped in Curios slots, improving build flexibility and survivability in end-game scenarios.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Stalwart Dungeons",
+          "mod_version": "unknown",
+          "category": "adventure",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-advanced-netherite-001",
+        "text": "Advanced Netherite is a vanilla-friendly end-game expansion mod developed by Autovw that extends Netherite progression into four powerful tiers designed to bridge the gap between standard Netherite and true god-tier equipment. Rather than introducing entirely new materials, the mod enhances Netherite by infusing it with familiar vanilla resources, preserving balance while adding meaningful specialization. Each tier requires upgrading an existing Netherite item using a corresponding Advanced Ingot and grants a powerful full-set armor bonus alongside improved tool performance. Iron Netherite is infused with Iron Ingots and focuses on durability, allowing armor and tools to withstand significantly more use while maintaining balanced speed and toughness. Gold Netherite, infused with Gold Ingots, grants Piglin Neutrality when wearing the full armor set, mirroring gold armor behavior but with end-game stats, and provides faster mining speed on tools. Emerald Netherite is crafted using Emeralds and permanently grants the Hero of the Village effect when wearing the full set, improving villager trade prices, while tools gain luck-based bonuses that improve drops. Diamond Netherite represents the final tier, infused with Diamonds, and offers the highest armor, toughness, and protection values in the mod, alongside maximum tool efficiency. Progression is strictly linear and cannot be skipped: Netherite must first be upgraded to Iron Netherite, then Gold Netherite, followed by Emerald Netherite, and finally Diamond Netherite. Crafting uses the modern Smithing Table system introduced in Minecraft 1.20+, along with custom Advanced Netherite Smithing Templates. These templates are typically found in Bastion Remnants, especially Treasure Rooms, or can be crafted in some configurations using Diamonds and Netherite blocks. Advanced Ingots are created by combining a standard Netherite Ingot with the tier’s infusion material, such as Diamonds for Diamond Netherite, ensuring that each upgrade step remains costly and progression-focused.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Advanced Netherite",
+          "mod_version": "unknown",
+          "category": "equipment",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-advanced-netherite-002",
+        "text": "Advanced Netherite further extends end-game progression by introducing Netherite-tier ranged and defensive gear that does not exist in vanilla Minecraft, while maintaining balance through high crafting costs and configuration control. The mod adds Netherite Bow and Crossbow variants that feature increased draw speed and higher projectile damage compared to their vanilla counterparts, and they are fully lava-proof, preventing accidental loss in extreme environments. A Netherite Trident is also included, offering increased melee damage and greatly improved durability, making it especially valuable for players who rely on Riptide-based mobility and combat. In addition to weapons, Advanced Netherite introduces Netherite Shields with massively increased durability and complete damage negation from explosions, providing unmatched survivability against creepers, TNT, and boss attacks. Beyond equipment, the mod emphasizes flexibility and pack balance through extensive configuration options, particularly when used with NeoForge on versions such as 1.20.1 or 1.21+. The advanced-netherite-common.toml configuration file allows pack creators and players to fine-tune nearly every aspect of the mod, including enabling or disabling specific armor perks such as Piglin Neutrality or Hero of the Village effects. Individual tiers can also be disabled entirely if higher levels, such as Diamond Netherite, are deemed too powerful for a given progression curve. As an additional integration feature, all Advanced Netherite blocks are valid Beacon bases, allowing players to power beacon effects using these high-tier materials and further reinforcing their role as true end-game resources.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Advanced Netherite",
+          "mod_version": "unknown",
+          "category": "equipment",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-twigs-001",
+        "text": "Twigs is a highly regarded Vanilla+ building mod created by ninnih_ that focuses on subtly expanding Minecraft’s block palette to make worlds feel more detailed, natural, and lived-in. Rather than introducing flashy new systems, the mod fills visual and thematic gaps in vanilla by adding small environmental details and realistic block variations that blend seamlessly with existing biomes. A key aspect of Twigs is its emphasis on ground cover and ambient decoration. Forests, caves, and beaches are enriched with small placeable details such as twigs and pebbles, which can be found naturally and picked up to add clutter and realism to builds. Seashells generate along beaches and shorelines, providing fine-grained decorative options for coastal builds. In caves, Petrified Lichen appears on stone surfaces, adding a sense of age and texture to underground environments. Beyond environmental details, Twigs introduces several new building materials that stay true to vanilla aesthetics. Schist and Rhyolite are new naturally generating stone types that offer additional gray and earthy tones for masonry and structural builds. Bundled Bamboo provides a denser, more architectural form of bamboo, available in vertical and horizontal variants, making it ideal for tropical or East Asian-inspired structures. Paper Lanterns act as a soft, warm light source inspired by Japanese design, offering a gentler alternative to torches. The mod also adds simple furniture-style blocks such as tables and mats made from materials like spruce and bamboo, delivering functional-looking interiors without relying on complex furniture systems. Finally, Thatch blocks crafted from wheat introduce a rustic roofing option well suited for cottages, farmhouses, and rural builds, reinforcing Twigs’ goal of enhancing immersion through small but meaningful details.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Twigs",
+          "mod_version": "unknown",
+          "category": "building",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-twigs-002",
+        "text": "Twigs further enhances its Vanilla+ philosophy by adding many long-requested block variants and subtle mechanics that feel like natural extensions of Minecraft’s design. The mod is especially well known for introducing so-called “missing” vanilla variants that builders often expect to exist. Wall Layers allow players to create half-height or layered wall effects, making stonework, ruins, and detailed facades feel more realistic and less blocky. Polished and Cut Amethyst blocks finally give decorative value to Amethyst beyond tinted glass, enabling crystalline floors, walls, and accents with a refined aesthetic. Bloodstone introduces a dark red stone set that naturally fits gothic, ominous, or corrupted build themes, while Silt adds a new earthy terrain block found near riverbeds, visually blending properties of mud and sand for smoother shoreline and wetland transitions. In addition to block variety, Twigs introduces small but meaningful mechanics that add both function and immersion. The Compass Rose is a decorative floor block that actually points north, allowing it to double as a subtle navigation or pathfinding aid when embedded into builds. Copper Lanterns expand on vanilla copper mechanics by oxidizing over time, gradually changing color from bright orange to weathered green, adding a sense of aging and environmental storytelling. Twigs also completes the Azalea aesthetic by providing a full Azalea Wood set, including planks, stairs, and related blocks, matching the tree’s unique coloration and finally allowing Azalea forests to be used consistently in large-scale builds. Together, these additions reinforce Twigs’ goal of enriching Minecraft through believable details rather than flashy systems.",
+        "metadata": {
+            "modpack": "BetterMC",
+            "mod_name": "Twigs",
+            "mod_version": "unknown",
+            "category": "building",
+            "doc_type": "curseforge",
+            "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-visual-workbench-001",
+        "text": "Visual Workbench is a foundational quality-of-life mod created by Fuzss that fixes one of Minecraft’s oldest crafting frustrations: items popping out of the crafting table when the interface is closed. The mod makes crafting tables behave like real inventories, allowing players to leave partially completed recipes exactly as they are and return later without losing progress. Items placed into the crafting grid persist inside the table when the UI is closed, meaning you can walk away, travel, or log out and still find your materials arranged as before. Visual clarity is a major focus of the mod. Any items currently inside the crafting grid are physically rendered on top of the crafting table in the world, letting both you and other players immediately see what is being crafted. When a valid recipe is formed, a small holographic preview of the output item appears floating above the table, providing instant visual feedback without opening the interface. To ensure material safety, the mod also adjusts drop logic: if a crafting table is broken while it contains items, all stored materials are dropped into the world instead of being deleted. From a technical standpoint, Visual Workbench is part of the Puzzles mod ecosystem and requires specific dependencies to function correctly. Puzzles Lib is mandatory as the shared core library used by all of Fuzss’s mods, and Forge Config API Port is required to handle configuration files consistently across loaders. The mod supports both Forge and NeoForge environments, with dedicated NeoForge builds for versions such as 1.21+ that take advantage of the modern API for improved stability and performance. Overall, Visual Workbench is a small but impactful mod that improves immersion, multiplayer visibility, and crafting convenience without altering vanilla balance.",
+        "metadata": {
+            "modpack": "BetterMC",
+            "mod_name": "Visual Workbench",
+            "mod_version": "unknown",
+            "category": "utility",
+            "doc_type": "curseforge",
+            "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-handcrafted-001",
+        "text": "Handcrafted is a high-quality furniture and decoration mod developed by the Terrarium Team, the creators of Chipped, with the goal of turning simple blocky houses into detailed, lived-in homes. The mod adds over 250 furniture pieces that closely match vanilla Minecraft aesthetics while offering enough stylistic range to support medieval, steampunk, rustic, and fantasy builds. Most furniture is available in all vanilla wood types such as Oak, Birch, and Dark Oak, and many versions also support modded wood sets, ensuring broad compatibility across modpacks. The furniture catalog is extensive and covers both decorative and functional needs. Seating options include chairs, benches, couches, and ottomans, many of which feature connectable logic so placing them side by side automatically forms longer, continuous seating. Tables and storage-focused furniture include desks, nightstands, side tables, counters, drawers, and cupboards, allowing for realistic interior layouts. Bedroom furniture is expanded with highly detailed “fancy beds” that are visually richer and often more performance-friendly than vanilla beds. Decorative elements such as plates, crockery, statues, and stackable books add fine detail to interiors without relying on complex systems. A defining feature of Handcrafted is its interactive customization system built around the Hammer tool. Instead of crafting multiple variants, players use the Hammer to cycle through different blockstates or visual styles of a single furniture piece, such as changing shelf brackets or removing them entirely. Customization is further enhanced with cushions and sheets, which can be crafted from wool and applied to chairs or couches to change their color; cushions can be removed by shift-right-clicking with an empty hand. Unlike purely decorative furniture mods, Handcrafted also emphasizes functionality, as many storage blocks such as counters, drawers, and cupboards include real internal inventories, making them practical as well as decorative.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Handcrafted",
+          "mod_version": "unknown",
+          "category": "building",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    },
+    {
+        "id": "bettermc-handcrafted-002",
+        "text": "Handcrafted’s modern crafting progression emphasizes simplicity and performance while retaining deep building flexibility. In older releases, furniture recipes relied on intermediate items like Boards, but versions 3.0 and newer streamline the process to feel closer to vanilla crafting. Most furniture pieces are now crafted directly using basic materials such as Planks and Sticks, reducing recipe complexity and making early access easier in survival play. To further improve usability, many Handcrafted blocks integrate with the Stonecutter, allowing players to insert wood planks and browse a full list of available furniture variants without memorizing numerous 3x3 crafting recipes. This approach mirrors vanilla stone variants and encourages experimentation. The mod also introduces architectural detailing elements such as Pillar Trims, which can be placed on the corners of blocks to add vertical or horizontal accents, helping builders break up flat surfaces and add depth to interiors and exteriors. From a technical standpoint, Handcrafted relies on a small but important set of dependencies to function correctly, particularly on Forge and NeoForge. Resourceful Lib is a mandatory core library required across all loaders. Athena is also required to support connected texture logic, enabling features like couches, counters, and other furniture pieces snapping together seamlessly when placed adjacent. Performance is a major focus in recent versions: starting with v3.0, most furniture blocks were migrated from Block Entities to lightweight BlockStates. This change dramatically improves performance, allowing players to place large numbers of furniture pieces in a single area without the severe FPS drops commonly associated with other furniture mods. As a result, Handcrafted remains suitable for both decorative builds and large multiplayer bases.",
+        "metadata": {
+          "modpack": "BetterMC",
+          "mod_name": "Handcrafted",
+          "mod_version": "unknown",
+          "category": "building",
+          "doc_type": "curseforge",
+          "language": "en"
+        }
+    }
+]

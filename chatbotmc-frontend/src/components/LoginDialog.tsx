@@ -10,9 +10,11 @@ import {
   Typography,
   Alert,
   IconButton,
+  InputAdornment,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import LoginIcon from '@mui/icons-material/Login';
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import { login } from '../services/authService';
 
 interface LoginDialogProps {
@@ -27,6 +29,7 @@ export default function LoginDialog({ open, onClose, onLoginSuccess, onSwitchToR
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleLogin = async () => {
     if (!username.trim() || !password.trim()) {
@@ -41,7 +44,6 @@ export default function LoginDialog({ open, onClose, onLoginSuccess, onSwitchToR
       const response = await login({ username, password });
       onLoginSuccess(response.username);
       onClose();
-      // Reset form
       setUsername('');
       setPassword('');
     } catch (err) {
@@ -70,25 +72,49 @@ export default function LoginDialog({ open, onClose, onLoginSuccess, onSwitchToR
       fullWidth
       PaperProps={{
         sx: {
-          bgcolor: 'background.paper',
-          borderRadius: 2,
+          bgcolor: '#2f2f2f',
+          backgroundImage: 'none',
+          borderRadius: 3,
         }
       }}
     >
-      <DialogTitle sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-          <LoginIcon color="primary" />
-          <Typography variant="h6">Login</Typography>
-        </Box>
-        <IconButton onClick={handleClose} size="small">
+      <DialogTitle sx={{ 
+        display: 'flex', 
+        alignItems: 'center', 
+        justifyContent: 'space-between',
+        pb: 1,
+      }}>
+        <Typography variant="h6" sx={{ fontWeight: 600, color: '#ececec' }}>
+          Welcome back
+        </Typography>
+        <IconButton 
+          onClick={handleClose} 
+          size="small"
+          sx={{
+            color: '#8e8ea0',
+            '&:hover': {
+              bgcolor: '#424242',
+            },
+          }}
+        >
           <CloseIcon />
         </IconButton>
       </DialogTitle>
 
       <DialogContent>
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2, pt: 1 }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2.5, pt: 1 }}>
           {error && (
-            <Alert severity="error" onClose={() => setError('')}>
+            <Alert 
+              severity="error" 
+              onClose={() => setError('')}
+              sx={{
+                bgcolor: 'rgba(239, 68, 68, 0.1)',
+                color: '#ef4444',
+                '& .MuiAlert-icon': {
+                  color: '#ef4444',
+                },
+              }}
+            >
               {error}
             </Alert>
           )}
@@ -102,44 +128,135 @@ export default function LoginDialog({ open, onClose, onLoginSuccess, onSwitchToR
             onKeyPress={handleKeyPress}
             disabled={loading}
             autoFocus
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                bgcolor: '#212121',
+                borderRadius: 2,
+                '& fieldset': {
+                  borderColor: '#424242',
+                },
+                '&:hover fieldset': {
+                  borderColor: '#565656',
+                },
+                '&.Mui-focused fieldset': {
+                  borderColor: '#10a37f',
+                },
+              },
+              '& .MuiInputBase-input': {
+                color: '#ececec',
+              },
+              '& .MuiInputLabel-root': {
+                color: '#8e8ea0',
+                '&.Mui-focused': {
+                  color: '#10a37f',
+                },
+              },
+            }}
           />
 
           <TextField
             label="Password"
-            type="password"
+            type={showPassword ? 'text' : 'password'}
             variant="outlined"
             fullWidth
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             onKeyPress={handleKeyPress}
             disabled={loading}
+            InputProps={{
+              endAdornment: (
+                <InputAdornment position="end">
+                  <IconButton
+                    onClick={() => setShowPassword(!showPassword)}
+                    edge="end"
+                    sx={{ color: '#8e8ea0' }}
+                  >
+                    {showPassword ? <VisibilityOff /> : <Visibility />}
+                  </IconButton>
+                </InputAdornment>
+              ),
+            }}
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                bgcolor: '#212121',
+                borderRadius: 2,
+                '& fieldset': {
+                  borderColor: '#424242',
+                },
+                '&:hover fieldset': {
+                  borderColor: '#565656',
+                },
+                '&.Mui-focused fieldset': {
+                  borderColor: '#10a37f',
+                },
+              },
+              '& .MuiInputBase-input': {
+                color: '#ececec',
+              },
+              '& .MuiInputLabel-root': {
+                color: '#8e8ea0',
+                '&.Mui-focused': {
+                  color: '#10a37f',
+                },
+              },
+            }}
           />
 
-          <Typography variant="body2" color="text.secondary" textAlign="center">
+          <Typography variant="body2" sx={{ color: '#8e8ea0' }} textAlign="center">
             Don't have an account?{' '}
             <Button
               variant="text"
               size="small"
               onClick={onSwitchToRegister}
-              sx={{ textTransform: 'none', p: 0, minWidth: 'auto' }}
+              sx={{ 
+                textTransform: 'none', 
+                p: 0, 
+                minWidth: 'auto',
+                color: '#10a37f',
+                fontWeight: 500,
+                '&:hover': {
+                  bgcolor: 'transparent',
+                  textDecoration: 'underline',
+                },
+              }}
             >
-              Register here
+              Sign up
             </Button>
           </Typography>
         </Box>
       </DialogContent>
 
-      <DialogActions sx={{ px: 3, pb: 2 }}>
-        <Button onClick={handleClose} disabled={loading}>
+      <DialogActions sx={{ px: 3, pb: 3, gap: 1.5 }}>
+        <Button 
+          onClick={handleClose} 
+          disabled={loading}
+          sx={{
+            color: '#8e8ea0',
+            px: 3,
+            '&:hover': {
+              bgcolor: '#424242',
+            },
+          }}
+        >
           Cancel
         </Button>
         <Button
           variant="contained"
           onClick={handleLogin}
           disabled={loading || !username.trim() || !password.trim()}
-          startIcon={<LoginIcon />}
+          sx={{
+            bgcolor: '#10a37f',
+            px: 3,
+            '&:hover': {
+              bgcolor: '#0d8a6c',
+            },
+            '&.Mui-disabled': {
+              bgcolor: '#424242',
+              color: '#8e8ea0',
+            },
+          }}
         >
-          {loading ? 'Logging in...' : 'Login'}
+          {loading ? 'Logging in...' : 'Continue'}
         </Button>
       </DialogActions>
     </Dialog>
