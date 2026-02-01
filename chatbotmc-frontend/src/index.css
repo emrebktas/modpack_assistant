@@ -13,10 +13,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #212121;
+  /* Prevent overscroll bounce on mobile */
+  overscroll-behavior: none;
+  /* Enable smooth touch scrolling */
+  -webkit-overflow-scrolling: touch;
 }
 
 html {
   scroll-behavior: smooth;
+  /* Fix for mobile viewport height */
+  height: 100%;
+  height: -webkit-fill-available;
+}
+
+/* Ensure proper viewport handling on mobile */
+@supports (-webkit-touch-callout: none) {
+  body {
+    min-height: -webkit-fill-available;
+  }
 }
 
 /* ChatGPT-style scrollbar */

@@ -7,12 +7,38 @@
 #root {
   width: 100%;
   height: 100vh;
+  height: 100dvh; /* Dynamic viewport height for mobile */
 }
 
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 900px) {
+  /* Ensure minimum touch target size */
+  button, 
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Prevent text selection on tap */
+  .no-select {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  /* Safe area padding for devices with notches */
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .safe-area-top {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
 }
 
 /* Pulse animation for loading dots */

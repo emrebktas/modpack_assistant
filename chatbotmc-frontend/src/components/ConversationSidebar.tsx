@@ -15,6 +15,9 @@ import {
   Button,
   TextField,
   Tooltip,
+  Drawer,
+  useMediaQuery,
+  useTheme,
 } from '@mui/material'
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline'
 import EditOutlinedIcon from '@mui/icons-material/EditOutlined'
@@ -23,6 +26,7 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline'
 import LogoutIcon from '@mui/icons-material/Logout'
 import LoginIcon from '@mui/icons-material/Login'
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline'
+import CloseIcon from '@mui/icons-material/Close'
 import { type Conversation } from '../services/conversationService'
 
 interface ConversationSidebarProps {
@@ -37,6 +41,8 @@ interface ConversationSidebarProps {
   remainingQueries: number | null
   onLogin: () => void
   onLogout: () => void
+  mobileOpen: boolean
+  onMobileClose: () => void
 }
 
 export default function ConversationSidebar({
@@ -51,12 +57,30 @@ export default function ConversationSidebar({
   remainingQueries,
   onLogin,
   onLogout,
+  mobileOpen,
+  onMobileClose,
 }: ConversationSidebarProps) {
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'))
   const [editingId, setEditingId] = useState<number | null>(null)
   const [editTitle, setEditTitle] = useState('')
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false)
   const [conversationToDelete, setConversationToDelete] = useState<number | null>(null)
   const [hoveredId, setHoveredId] = useState<number | null>(null)
+
+  const handleConversationSelect = (id: number | null) => {
+    onSelectConversation(id)
+    if (isMobile) {
+      onMobileClose()
+    }
+  }
+
+  const handleNewChat = () => {
+    onNewConversation()
+    if (isMobile) {
+      onMobileClose()
+    }
+  }
 
   const handleEditClick = (conv: Conversation, e: React.MouseEvent) => {
     e.stopPropagation()
@@ -90,46 +114,74 @@ export default function ConversationSidebar({
     }
   }
 
-  return (
-    <>
-      <Box
-        sx={{
-          width: 260,
-          height: '100vh',
-          bgcolor: '#171717',
-          display: 'flex',
-          flexDirection: 'column',
-          overflow: 'hidden',
-        }}
-      >
-        {/* New Chat Button */}
-        <Box sx={{ p: 2 }}>
-          <Button
-            fullWidth
-            variant="outlined"
-            startIcon={<AddIcon />}
-            onClick={onNewConversation}
-            disabled={!authenticated}
+  const sidebarContent = (
+    <Box
+      sx={{
+        width: { xs: 280, md: 260 },
+        height: '100vh',
+        bgcolor: '#171717',
+        display: 'flex',
+        flexDirection: 'column',
+        overflow: 'hidden',
+      }}
+    >
+      {/* Mobile Header with Close Button */}
+      {isMobile && (
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            p: 2,
+            pb: 0,
+          }}
+        >
+          <Typography variant="h6" sx={{ color: '#ececec', fontWeight: 600 }}>
+            Chats
+          </Typography>
+          <IconButton
+            onClick={onMobileClose}
             sx={{
-              color: '#ececec',
-              borderColor: '#424242',
-              justifyContent: 'flex-start',
-              py: 1.25,
-              px: 2,
-              fontWeight: 500,
+              color: '#8e8ea0',
               '&:hover': {
                 bgcolor: '#2f2f2f',
-                borderColor: '#565656',
-              },
-              '&.Mui-disabled': {
-                color: '#565656',
-                borderColor: '#2f2f2f',
+                color: '#ececec',
               },
             }}
           >
-            New chat
-          </Button>
+            <CloseIcon />
+          </IconButton>
         </Box>
+      )}
+
+      {/* New Chat Button */}
+      <Box sx={{ p: 2 }}>
+        <Button
+          fullWidth
+          variant="outlined"
+          startIcon={<AddIcon />}
+          onClick={handleNewChat}
+          disabled={!authenticated}
+          sx={{
+            color: '#ececec',
+            borderColor: '#424242',
+            justifyContent: 'flex-start',
+            py: 1.25,
+            px: 2,
+            fontWeight: 500,
+            '&:hover': {
+              bgcolor: '#2f2f2f',
+              borderColor: '#565656',
+            },
+            '&.Mui-disabled': {
+              color: '#565656',
+              borderColor: '#2f2f2f',
+            },
+          }}
+        >
+          New chat
+        </Button>
+      </Box>
 
         {/* Conversations List */}
         <Box sx={{ flexGrow: 1, overflow: 'auto', px: 1 }}>
@@ -172,7 +224,7 @@ export default function ConversationSidebar({
                   >
                     <ListItemButton
                       selected={currentConversationId === conv.id}
-                      onClick={() => onSelectConversation(conv.id)}
+                      onClick={() => handleConversationSelect(conv.id)}
                       sx={{
                         borderRadius: 2,
                         py: 1.25,
@@ -363,6 +415,34 @@ export default function ConversationSidebar({
           )}
         </Box>
       </Box>
+  )
+
+  return (
+    <>
+      {/* Desktop Sidebar */}
+      {!isMobile && sidebarContent}
+
+      {/* Mobile Drawer */}
+      <Drawer
+        variant="temporary"
+        anchor="left"
+        open={mobileOpen}
+        onClose={onMobileClose}
+        ModalProps={{
+          keepMounted: true, // Better mobile performance
+        }}
+        sx={{
+          display: { xs: 'block', md: 'none' },
+          '& .MuiDrawer-paper': {
+            boxSizing: 'border-box',
+            width: 280,
+            bgcolor: '#171717',
+            border: 'none',
+          },
+        }}
+      >
+        {sidebarContent}
+      </Drawer>
 
       {/* Edit Dialog */}
       <Dialog 

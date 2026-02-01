@@ -12,6 +12,7 @@ import {
   Tooltip,
 } from '@mui/material'
 import SendIcon from '@mui/icons-material/Send'
+import MenuIcon from '@mui/icons-material/Menu'
 import LoginDialog from './components/LoginDialog'
 import RegisterDialog from './components/RegisterDialog'
 import ConversationSidebar from './components/ConversationSidebar'
@@ -109,6 +110,7 @@ function App() {
   const [conversations, setConversations] = useState<Conversation[]>([])
   const [currentConversationId, setCurrentConversationId] = useState<number | null>(null)
   const [remainingQueries, setRemainingQueries] = useState<number | null>(null)
+  const [mobileOpen, setMobileOpen] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
 
   const scrollToBottom = () => {
@@ -365,6 +367,8 @@ function App() {
           remainingQueries={remainingQueries}
           onLogin={() => setLoginOpen(true)}
           onLogout={handleLogout}
+          mobileOpen={mobileOpen}
+          onMobileClose={() => setMobileOpen(false)}
         />
 
         {/* Main Chat Area */}
@@ -378,15 +382,49 @@ function App() {
             position: 'relative',
           }}
         >
+          {/* Mobile Header */}
+          <Box
+            sx={{
+              display: { xs: 'flex', md: 'none' },
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              px: 2,
+              py: 1.5,
+              borderBottom: '1px solid #2f2f2f',
+            }}
+          >
+            <IconButton
+              onClick={() => setMobileOpen(true)}
+              sx={{
+                color: '#ececec',
+                '&:hover': {
+                  bgcolor: '#2f2f2f',
+                },
+              }}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Typography
+              variant="subtitle1"
+              sx={{
+                color: '#ececec',
+                fontWeight: 600,
+              }}
+            >
+              ModpackGPT
+            </Typography>
+            <Box sx={{ width: 40 }} /> {/* Spacer for centering */}
+          </Box>
+
           {/* Messages Area */}
           <Box
             sx={{
               flexGrow: 1,
               overflow: 'auto',
-              py: 4,
+              py: { xs: 2, md: 4 },
             }}
           >
-            <Box sx={{ maxWidth: '768px', mx: 'auto', px: 4 }}>
+            <Box sx={{ maxWidth: '768px', mx: 'auto', px: { xs: 2, md: 4 } }}>
               {messages.length === 0 ? (
                 <Box
                   sx={{
@@ -394,8 +432,9 @@ function App() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    height: '60vh',
-                    gap: 3,
+                    height: { xs: '50vh', md: '60vh' },
+                    gap: { xs: 2, md: 3 },
+                    px: 2,
                   }}
                 >
                   <Box
@@ -403,10 +442,10 @@ function App() {
                     src="/bettermc.jpg"
                     alt="BetterMC Logo"
                     sx={{
-                      width: 301,
-                      height: 161,
+                      width: { xs: 200, sm: 250, md: 301 },
+                      height: { xs: 107, sm: 134, md: 161 },
                       objectFit: 'contain',
-                      borderRadius: '16px',
+                      borderRadius: { xs: '12px', md: '16px' },
                     }}
                   />
                   <Typography
@@ -415,6 +454,7 @@ function App() {
                       fontWeight: 600,
                       color: '#ececec',
                       textAlign: 'center',
+                      fontSize: { xs: '1.5rem', sm: '1.75rem', md: '2.125rem' },
                     }}
                   >
                     How can I help you today?
@@ -425,6 +465,7 @@ function App() {
                       color: '#8e8ea0',
                       textAlign: 'center',
                       maxWidth: 480,
+                      fontSize: { xs: '0.875rem', md: '1rem' },
                     }}
                   >
                     {authenticated 
@@ -437,18 +478,18 @@ function App() {
                   <Box
                     key={message.id}
                     sx={{
-                      py: 3,
+                      py: { xs: 2, md: 3 },
                       '&:hover': {
                         bgcolor: 'rgba(255,255,255,0.02)',
                       },
                     }}
                   >
-                    <Box sx={{ display: 'flex', gap: 3, alignItems: 'flex-start' }}>
+                    <Box sx={{ display: 'flex', gap: { xs: 2, md: 3 }, alignItems: 'flex-start' }}>
                       {/* Avatar */}
                       <Box
                         sx={{
-                          width: 32,
-                          height: 32,
+                          width: { xs: 28, md: 32 },
+                          height: { xs: 28, md: 32 },
                           borderRadius: '4px',
                           bgcolor: message.sender === 'user' ? '#5436DA' : '#10a37f',
                           display: 'flex',
@@ -460,7 +501,7 @@ function App() {
                         <Typography
                           sx={{
                             color: 'white',
-                            fontSize: '14px',
+                            fontSize: { xs: '12px', md: '14px' },
                             fontWeight: 700,
                           }}
                         >
@@ -476,6 +517,7 @@ function App() {
                             fontWeight: 600,
                             color: '#ececec',
                             mb: 0.5,
+                            fontSize: { xs: '0.8rem', md: '0.875rem' },
                           }}
                         >
                           {message.sender === 'user' ? 'You' : 'ModpackGPT'}
@@ -487,6 +529,7 @@ function App() {
                             whiteSpace: 'pre-wrap',
                             wordBreak: 'break-word',
                             lineHeight: 1.75,
+                            fontSize: { xs: '0.9rem', md: '1rem' },
                           }}
                         >
                           {message.text}
@@ -499,12 +542,12 @@ function App() {
               
               {/* Loading indicator */}
               {loading && (
-                <Box sx={{ py: 3 }}>
-                  <Box sx={{ display: 'flex', gap: 3, alignItems: 'flex-start' }}>
+                <Box sx={{ py: { xs: 2, md: 3 } }}>
+                  <Box sx={{ display: 'flex', gap: { xs: 2, md: 3 }, alignItems: 'flex-start' }}>
                     <Box
                       sx={{
-                        width: 32,
-                        height: 32,
+                        width: { xs: 28, md: 32 },
+                        height: { xs: 28, md: 32 },
                         borderRadius: '4px',
                         bgcolor: '#10a37f',
                         display: 'flex',
@@ -513,12 +556,12 @@ function App() {
                         flexShrink: 0,
                       }}
                     >
-                      <Typography sx={{ color: 'white', fontSize: '14px', fontWeight: 700 }}>
+                      <Typography sx={{ color: 'white', fontSize: { xs: '12px', md: '14px' }, fontWeight: 700 }}>
                         M
                       </Typography>
                     </Box>
                     <Box sx={{ flex: 1 }}>
-                      <Typography variant="subtitle2" sx={{ fontWeight: 600, color: '#ececec', mb: 0.5 }}>
+                      <Typography variant="subtitle2" sx={{ fontWeight: 600, color: '#ececec', mb: 0.5, fontSize: { xs: '0.8rem', md: '0.875rem' } }}>
                         ModpackGPT
                       </Typography>
                       <Box sx={{ display: 'flex', gap: 1 }}>
@@ -578,9 +621,9 @@ function App() {
               position: 'sticky',
               bottom: 0,
               bgcolor: '#212121',
-              pt: 2,
-              pb: 3,
-              px: 4,
+              pt: { xs: 1.5, md: 2 },
+              pb: { xs: 2, md: 3 },
+              px: { xs: 2, md: 4 },
             }}
           >
             <Box sx={{ maxWidth: '768px', mx: 'auto' }}>
