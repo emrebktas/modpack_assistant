@@ -1,14 +1,9 @@
-# Chatbot MC
-
 <p align="center">
-  <img src="chatbotmc-frontend/public/bettermc.jpg" alt="BetterMC" width="600" />
+  <img src="chatbotmc-frontend/public/bettermc.jpg" alt="BetterMC" width="300" />
 </p>
 <p align="center"><strong>BetterMC</strong></p>
 
-A full-stack AI chatbot application for Minecraft modpack (BetterMC) support. Users can ask questions and get answers powered by Google Gemini, with RAG over mod documentation.
-
-## Live at 
-https://modpack-assistant.vercel.app/
+A full-stack AI chatbot application for Minecraft modpack (BetterMC) support. Users can ask questions and get answers powered by Google Gemini, with RAG over mod documentation. Live at https://modpack-assistant.vercel.app/ 
 
 ## Overview
 
