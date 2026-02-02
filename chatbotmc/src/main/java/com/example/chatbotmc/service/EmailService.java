@@ -30,15 +30,16 @@ public class EmailService {
         try {
             Email from = new Email(fromEmail, fromName);
             Email to = new Email(adminEmail);
-            String subject = "New User Registration Approval Required - " + username;
+            String subject = "New user registration: " + username;
             
             String approveUrl = backendUrl + "/api/auth/approve-user?token=" + approvalToken + "&action=approve";
             String rejectUrl = backendUrl + "/api/auth/approve-user?token=" + approvalToken + "&action=reject";
             
+            String plainContent = buildAdminApprovalEmailPlain(username, email, approveUrl, rejectUrl);
             String htmlContent = buildAdminApprovalEmail(username, email, approveUrl, rejectUrl);
-            Content content = new Content("text/html", htmlContent);
             
-            Mail mail = new Mail(from, subject, to, content);
+            Mail mail = new Mail(from, subject, to, new Content("text/plain", plainContent));
+            mail.addContent(new Content("text/html", htmlContent));
             SendGrid sg = new SendGrid(sendGridApiKey);
             Request request = new Request();
             
@@ -62,18 +63,21 @@ public class EmailService {
             Email to = new Email(userEmail);
             
             String subject;
+            String plainContent;
             String htmlContent;
             
             if (approved) {
-                subject = "Your Account Has Been Approved!";
+                subject = "Account approved - " + username;
+                plainContent = buildUserApprovedEmailPlain(username);
                 htmlContent = buildUserApprovedEmail(username);
             } else {
-                subject = "Registration Status Update";
+                subject = "Registration update - " + username;
+                plainContent = buildUserRejectedEmailPlain(username);
                 htmlContent = buildUserRejectedEmail(username);
             }
             
-            Content content = new Content("text/html", htmlContent);
-            Mail mail = new Mail(from, subject, to, content);
+            Mail mail = new Mail(from, subject, to, new Content("text/plain", plainContent));
+            mail.addContent(new Content("text/html", htmlContent));
             
             SendGrid sg = new SendGrid(sendGridApiKey);
             Request request = new Request();
@@ -92,133 +96,86 @@ public class EmailService {
         }
     }
     
-    private String buildAdminApprovalEmail(String username, String email, String approveUrl, String rejectUrl) {
+    private String buildAdminApprovalEmailPlain(String username, String email, String approveUrl, String rejectUrl) {
+        String date = java.time.LocalDateTime.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm"));
         return """
-            <!DOCTYPE html>
-            <html>
-            <head>
-                <style>
-                    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-                    .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-                    .header { background-color: #2196F3; color: white; padding: 20px; text-align: center; }
-                    .content { background-color: #f9f9f9; padding: 30px; border-radius: 5px; }
-                    .user-info { background-color: #fff; padding: 15px; border-left: 4px solid #2196F3; margin: 20px 0; }
-                    .button { 
-                        display: inline-block; 
-                        padding: 12px 30px; 
-                        color: white; 
-                        text-decoration: none; 
-                        border-radius: 5px; 
-                        margin: 10px 5px;
-                    }
-                    .approve { background-color: #4CAF50; }
-                    .reject { background-color: #f44336; }
-                    .footer { text-align: center; margin-top: 20px; color: #666; font-size: 12px; }
-                </style>
-            </head>
-            <body>
-                <div class="container">
-                    <div class="header">
-                        <h1>⚠️ New User Registration</h1>
-                    </div>
-                    <div class="content">
-                        <h2>Admin Approval Required</h2>
-                        <p>A new user has registered and is waiting for your approval:</p>
-                        
-                        <div class="user-info">
-                            <p><strong>Username:</strong> %s</p>
-                            <p><strong>Email:</strong> %s</p>
-                            <p><strong>Registration Date:</strong> %s</p>
-                        </div>
-                        
-                        <p>Please review and take action:</p>
-                        
-                        <div style="text-align: center;">
-                            <a href="%s" class="button approve">✓ Approve User</a>
-                            <a href="%s" class="button reject">✗ Reject User</a>
-                        </div>
-                        
-                        <p style="margin-top: 30px; font-size: 12px; color: #666;">
-                            Note: Approved users will be able to log in and use the chatbot application.
-                            Rejected users will be notified and their account will remain inactive.
-                        </p>
-                    </div>
-                    <div class="footer">
-                        <p>© 2026 Chatbot Application - Admin Panel</p>
-                    </div>
-                </div>
+            New user registration
+
+            A user has registered and needs your approval.
+
+            Username: %s
+            Email: %s
+            Date: %s
+
+            To approve: %s
+            To reject: %s
+
+            This is an automated message from the application.
+            """.formatted(username, email, date, approveUrl, rejectUrl);
+    }
+
+    private String buildAdminApprovalEmail(String username, String email, String approveUrl, String rejectUrl) {
+        String date = java.time.LocalDateTime.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm"));
+        return """
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            <html xmlns="http://www.w3.org/1999/xhtml">
+            <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+            <body style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; color: #333; margin: 0; padding: 20px;">
+                <p>New user registration</p>
+                <p>A user has registered and needs your approval.</p>
+                <p><strong>Username:</strong> %s<br />
+                <strong>Email:</strong> %s<br />
+                <strong>Date:</strong> %s</p>
+                <p><a href="%s" style="color: #1967d2;">Approve</a> &nbsp;|&nbsp; <a href="%s" style="color: #1967d2;">Reject</a></p>
+                <p style="font-size: 12px; color: #666;">This is an automated message from the application.</p>
             </body>
             </html>
-            """.formatted(username, email, java.time.LocalDateTime.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")), approveUrl, rejectUrl);
+            """.formatted(username, email, date, approveUrl, rejectUrl);
     }
     
+    private String buildUserApprovedEmailPlain(String username) {
+        return """
+            Hello %s,
+
+            Your account has been approved. You can log in and use the application.
+
+            This is an automated message.
+            """.formatted(username);
+    }
+
     private String buildUserApprovedEmail(String username) {
         return """
-            <!DOCTYPE html>
-            <html>
-            <head>
-                <style>
-                    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-                    .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-                    .header { background-color: #4CAF50; color: white; padding: 20px; text-align: center; }
-                    .content { background-color: #f9f9f9; padding: 30px; border-radius: 5px; }
-                    .footer { text-align: center; margin-top: 20px; color: #666; font-size: 12px; }
-                </style>
-            </head>
-            <body>
-                <div class="container">
-                    <div class="header">
-                        <h1>✓ Account Approved!</h1>
-                    </div>
-                    <div class="content">
-                        <h2>Hello %s,</h2>
-                        <p>Great news! Your account has been approved by our administrator.</p>
-                        <p>You can now log in and start using the chatbot application.</p>
-                        <p><strong>What's next?</strong></p>
-                        <ul>
-                            <li>Visit the application</li>
-                            <li>Log in with your credentials</li>
-                            <li>Start chatting with our AI assistant</li>
-                        </ul>
-                        <p>Thank you for joining us!</p>
-                    </div>
-                    <div class="footer">
-                        <p>© 2026 Chatbot Application. All rights reserved.</p>
-                    </div>
-                </div>
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            <html xmlns="http://www.w3.org/1999/xhtml">
+            <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+            <body style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; color: #333; margin: 0; padding: 20px;">
+                <p>Hello %s,</p>
+                <p>Your account has been approved. You can log in and use the application.</p>
+                <p style="font-size: 12px; color: #666;">This is an automated message.</p>
             </body>
             </html>
             """.formatted(username);
     }
     
+    private String buildUserRejectedEmailPlain(String username) {
+        return """
+            Hello %s,
+
+            Your registration request could not be approved at this time. If you believe this is an error, please contact support.
+
+            This is an automated message.
+            """.formatted(username);
+    }
+
     private String buildUserRejectedEmail(String username) {
         return """
-            <!DOCTYPE html>
-            <html>
-            <head>
-                <style>
-                    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-                    .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-                    .header { background-color: #f44336; color: white; padding: 20px; text-align: center; }
-                    .content { background-color: #f9f9f9; padding: 30px; border-radius: 5px; }
-                    .footer { text-align: center; margin-top: 20px; color: #666; font-size: 12px; }
-                </style>
-            </head>
-            <body>
-                <div class="container">
-                    <div class="header">
-                        <h1>Registration Status</h1>
-                    </div>
-                    <div class="content">
-                        <h2>Hello %s,</h2>
-                        <p>Thank you for your interest in our chatbot application.</p>
-                        <p>Unfortunately, your registration request could not be approved at this time.</p>
-                        <p>If you believe this is an error, please contact our support team.</p>
-                    </div>
-                    <div class="footer">
-                        <p>© 2026 Chatbot Application. All rights reserved.</p>
-                    </div>
-                </div>
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            <html xmlns="http://www.w3.org/1999/xhtml">
+            <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+            <body style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; color: #333; margin: 0; padding: 20px;">
+                <p>Hello %s,</p>
+                <p>Your registration request could not be approved at this time. If you believe this is an error, please contact support.</p>
+                <p style="font-size: 12px; color: #666;">This is an automated message.</p>
             </body>
             </html>
             """.formatted(username);
